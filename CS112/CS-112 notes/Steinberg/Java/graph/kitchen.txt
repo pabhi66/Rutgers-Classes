@@ -1,0 +1,16 @@
+directed
+7
+FrameWalls
+Pipes
+Sinks
+Outlets
+Wires
+Wallboard
+Counters
+FrameWalls Pipes
+FrameWalls Wires
+Pipes Wallboard
+Wires Wallboard
+Wallboard Counters
+Wallboard Outlets
+Counters Sinks

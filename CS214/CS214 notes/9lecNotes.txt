@@ -1,0 +1,75 @@
+
+
+gcc -L. -o name main.c -lname
+
+libname.a
+
+
+objfile.o
+
+gcc -o name main.c objfile.o
+
+gcc -o sl main.c sorted-list.o
+
+libsl.a
+
+gcc -o sl main.c libsl.a
+gcc -L. -o sl main.c -lsl
+
+
+
+
+Makefiles:
+
+
+target: dependencies
+	command
+
+all:
+
+
+clean:
+	rm *.o sl
+	
+
+	
+chmod ... change mode
+	
+	
+Owner			+			eXecute
+Group			-			Write
+User						Read
+All
+	
+	
+o					-			w
+
+
+octal codes:
+
+owner	group	all
+rwx		rwx		rwx
+000		000		000
+
+011		000		000
+> 300
+
+000		000		111
+> 007
+
+111		111		111
+> 777
+
+
+
+chown .. change owner
+
+
+od .. 'octal' dump .. interpret a file as a certain type and print out all values
+
+
+sizeof(int)*4
+
+
+
+

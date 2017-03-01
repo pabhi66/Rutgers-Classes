@@ -1,0 +1,35 @@
+
+
+kill:
+sends a signal to a process
+
+
+
+target: dependency0 dependency1 ... dependencyN
+	command to build target using dependencies
+	
+dependency0: otherDependencies
+	command to build dependency0 using otherDependencies
+
+all: ...
+...
+
+clean: 
+...
+
+
+
+lseek:
+	move/go a number of bytes within a file
+	
+
+enum:
+	enumerated type:
+	"I have a new type, it consists of only these things: ..... "
+	
+
+	
+
+	
+	
+	

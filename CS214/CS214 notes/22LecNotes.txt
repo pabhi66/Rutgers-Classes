@@ -1,0 +1,66 @@
+
+4 conditions for deadlock:
+mutual exclusion
+no preemption
+circular wait  <---(!!!!) the only one we can affect
+hold and wait
+
+
+mutex_0
+mutex_1
+mutex_2
+mutex_3
+mutex_4
+mutex_5
+mutex_6
+mutex_7
+
+T0:					T1:				T2:
+mutex_0			mutex_1		mutex_0
+mutex_4			mutex_5		mutex_4
+mutex_7			mutex_6		mutex_6
+
+To avoid deadlock .. make sure that you have a total, global ordering on locks
+
+
+
+bzero: zeros out a range of bytes in an array
+
+string = char array + '\0'
+
+if you have:
+000000000000000000
+
+and write chars into it:
+
+chars0000000000000
+
+... you automagically have a string, because it will always be null-terminated
+(so long as you never overwrite the last byte)
+
+if you do not null-terminate a char array and run a string function on it, C will continue reading bytes
+until it finds a 0 .. with all the associated fun that can cause
+
+charsFHOo83qu HR**1)0 iq h101
+
+
+
+pthread_create( handletothing i.e. the thread, attribute struct , function pointer (void*)(*name)(void*), void* args)
+
+
+opaque struct == we don't know what the types are/mean and can not access them directly (well.. shouldn't)
+
+... can't change it directly ... will need to use a function
+
+setscope:
+	system: kernel thread
+	process: user thread
+
+
+
+
+
+
+
+
+

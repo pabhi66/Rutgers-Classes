@@ -1,0 +1,68 @@
+Abhishek Prajapati
+Test cases assignment 4
+
+
+ 
+ Startup:
+ [Client] Input: ./client localhost 32722
+ [Server] Output: connected
+ [Client] Output: connected
+
+Client and Server applications
+    1. Client was started first, server second. Client should connect to server.
+    2. Server was started first, client second. Client should connect to server.
+    3. Client connects to server. Server should print that client connected and PID of process 		which is serversed client.
+    4. Client exits. Server should print message that client is disconnected.
+    5. Server should list all accounts every 20 seconds.
+    6. On sending signal SIGINT server should shutdown and print appropriate message. Client 		should disconnect.
+    7. Client should be abble to send messages to server. Server should corrctly 
+
+2. bank_driver module
+    Should correctly give output messages for all cases that described in assignment
+
+ Every 20 seconds the server will output account info for all accounts:
+
+ Server Info
+ Account: abhi p
+ Balance: 10.50
+ Session: IN SERVICE
+
+ Account: john
+ Balance: 1929.50
+ Session: IN SERVICE
+
+ After bank has 20 accounts:
+ [Client] Input:	open ken
+ [Client] Output:	[Error] Cannot open account at this time...
+
+
+ Server Connected:
+Input: 	open abhi p
+Output: Account created.
+ Input: 	start abhi p
+ Output:Options: [credit, debit, balance, finish]
+ Input:	open john
+ Output:[Error] Invalid input!
+Input:	start john
+Output:[Error] Cannot login. Try again or wait...
+Input:	credit 2000.50
+Output:[Success] Amount added to account.
+ Input:	debit 1100
+ Output:[Success] Amount withdrawn from account.
+ Input:	credit -550.00
+ Output:[Error] Amount must be greater than zero.
+ Input:	debit 200
+ Output:[Error] Amount must not exceed current balance.
+Input:	balance
+Output:10.50
+ Input:	finish
+ Output:Options: [open, start, exit]
+ Input:	start abhi p
+ Output:Options: [credit, debit, balance, finish]
+Input:	exit
+Output:Disconnected from server.
+Output:Disconnected
+
+ If server shuts down while clients are connected:
+ [All Clients] Output: [Disconnected] Server has shutdown!
+ 

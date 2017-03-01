@@ -1,0 +1,14 @@
+adapter h250
+python h252
+java h252
+grep h248
+cd h248
+mediator h250
+kill h248
+perl h252
+factory h250
+pwd h248
+prolog h252
+singleton h250
+flyweight h250
+lisp h252

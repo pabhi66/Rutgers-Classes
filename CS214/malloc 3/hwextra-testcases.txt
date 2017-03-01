@@ -1,0 +1,57 @@
+Test cases
+
+1) printf(“trying to free non malloced pointer\n");
+    int x=20;
+    free(&x);
+    printf(“\n");
+
+AHAH! ERROR: pointer not allocated OR pointer go out of memory range @ line: 11 file: /Users/Abhi/Desktop/malloc/main.c.
+
+2) printf("allocating -> freing -> allocating again -> freeing again -> no error\n");
+    char * ptr11=(char *)malloc(300);
+    free(ptr11);
+    ptr11=(char *)malloc(300);
+    free(ptr11);
+    printf(“\n");
+
+NO ERROR
+
+3) printf("trying to free same pointer two times\n");
+    char * ptr22=(char *)malloc(380);
+    free(ptr22);
+    free(ptr22);
+    printf(“\n");
+
+AHAH! ERROR: freeing same pointer twice @ line: 48 file: /Users/Abhi/Desktop/malloc/main.c.
+
+4) printf("allocate more memory then block size\n");
+    int * ptr=(int *)malloc(sizeof(int)*900);
+    free(ptr);
+    printf(“\n")
+
+AHAH! ERROR: can't allocate anymore memory from block @ line: 29 file: /Users/Abhi/Desktop/malloc/main.c.
+AHAH! ERROR: freeing not created memory. @ line: 30 file: /Users/Abhi/Desktop/malloc/main.c.
+
+5) printf("free()ing pointers to dynamic memory that were not returned from malloc()\n");
+    char *ptr2=(char *)malloc(200);
+    free(ptr2+300);
+    free(ptr2);
+    printf(“\n");
+AHAH! ERROR: freeing pointers that were not allocated @ line: 41 file: /Users/Abhi/Desktop/malloc/main.c.
+
+6) printf("creating memory with size 0 and try to free it\n");
+    char * ptrr=(char *)malloc(0);
+    free(ptrr);
+    printf("\n");
+
+AHAH! ERROR: size has to be > 0 @ line: 52 file: /Users/Abhi/Desktop/malloc/main.c.
+AHAH! ERROR: freeing not created memory. @ line: 53 file: /Users/Abhi/Desktop/malloc/main.c.
+
+7) printf(“ free(ptr+20) were ptr is allocated using 10000 bytes);
+	char * ptr(char*)malloc(10000)
+	free(ptr+20);
+	free(ptr);
+
+AHAH! ERROR: can’t allocate anymore memory @ line # and file name
+AHAH! ERROR: pointer not allocated OR pointer go out of memory range @ line # and file name
+AHAH! ERROR: size has to be > 0

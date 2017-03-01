@@ -1,0 +1,92 @@
+
+
+header files:
+
+loading:
+#include <stdio.h>
+#include "myrandomjunk.h"
+
+
+directives:
+
+#define ARRAYLEN 200
+
+header file:
+#define EXISTS !=0
+
+c code:
+if( p EXISTS)
+
+NOT typesafe
+
+
+header file:
+#define SQUARE(x) x*x
+
+
+c code:
+int a = 3;
+int b = SQUARE(a);
+
+after preprocessing:
+int a = 3;
+int b = a*a;
+
+
+c code:
+int a = 3;
+int b = SQUARE(a+2);
+
+after preprocessing:
+int a = 3;
+int b = a+2*a+2;   => 3+6+2
+
+
+header file:
+#define GOODSQUARE(x) (x)*(x)
+
+c code:
+int a = 3;
+int b = GOODSQUARE(a+2);
+
+after preprocessing:
+int a = 3;
+int b = (a+2)*(a+2);
+
+
+
+
+function pointers:
+
+int a = 0;
+int * ptr = &a;
+
+ .. int square(int number)
+
+int (*functionpointer)(int) = square;
+
+
+
+void sortInts( int * data ... )
+...
+
+void sortFloats( float * data ... )
+...
+
+
+
+void MegaSORT( void * data, ... compareFunction ) ... (w00t)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

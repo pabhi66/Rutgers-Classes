@@ -1,0 +1,109 @@
+Abhishek Prajapati
+Computer Science 111
+Assignment 3
+Test cases
+
+Problem1 (Calculate tax)
+Problem analysis: Calculate the amount of tax paid by people based on their income
+input: income
+output: tax
+operation: double, if,  else,=,+,-,*,>,<,>=,<=
+
+Test case 1: 
+Inputs:
+Value1   8001
+Expected output:
+800.15
+Actual output:
+800.15
+
+Test case 2: 
+Inputs:
+Value1   120,000
+Expected output:
+30,000
+Actual output:
+40,000
+
+Test case 3: 
+Inputs:
+Value1   500
+Expected output:
+50
+Actual output:
+50
+
+Problem 2(print 2 min numbers)
+problem analysis: Print the lowest and second lowest numbers from the set
+input: num
+output: min1,min2
+operation: =,+,<,&&,!=
+
+Test case 1: 
+Inputs:
+num1  5
+num2  6
+num3  7
+num4  8
+num5  9
+Expected output:
+5,6
+
+Actual output:
+5,6
+
+Test case 2: 
+Inputs:
+num1  50
+num2  60
+num3  70
+num4  80
+num5  90
+Expected output:
+50,60
+
+Actual output:
+50,60
+
+Test case 3: 
+Inputs:
+num1  55
+num2  65
+num3  75
+num4  85
+num5  55
+Expected output:
+5,55
+
+Actual output:
+5,55
+
+Problem 3(find the nth prime)
+problem analysis: find the nth prime 
+input: num
+output: Nthprime
+operation: =,+,%,==,<,/,boolean
+
+Test Case 1:
+input: 
+num: 5
+Expected output
+11
+Actual output
+11
+
+Test Case 2:
+input: 
+num: 50
+Expected output
+229
+Actual output
+229
+
+Test Case 3:
+input: 
+num: 1000
+Expected output
+7919
+Actual output
+7919

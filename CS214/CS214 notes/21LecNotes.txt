@@ -1,0 +1,71 @@
+
+threads v procs:
+
+procs run in their own address space /memory
+threads are tied to their parent processes
+
+
+types of threads:
+kernel:
+longer to set up
+more memory
+longer to switch between
+
+user:
+faster to set up
+less memory
+faster to switch between
+
+
+user threads are an abstraction .. as far as the OS is concerned, only the parent proc is running... so if one of
+the user's "threads" blocks or breaks, the whole process (and all user threads) are also blocked or broken
+
+i.e. the state of one user thread is the state of all user threads (and the process)
+
+the state of one kernel thread is the state of ONLY that thread .. it does not affect other threads or the process
+
+
+pthread_create( handle, attribstruct, ... fn pointer, args )
+accept( handle, attribstruct, ... clientattribstruct, clientattribstructlength)
+
+
+server socket:
+socket - create socket
+bind - bind this socket to a specific local port (SO_LINGER, SO_REUSE)
+listen - sets up this socket to listen for client connections (and specifies the pending connection buffer)
+accept - begin actively listening for client connections .. block until you get one
+
+client socket:
+socket - create socket
+connect - connect to server socket at IP:port
+
+
+DNS: Domain Name Service
+responsible for maintaining the mapping between names and IP addresses
+
+
+
+setsockopt .. make your life better!
+SO_LINGER, SO_REUSEPORT, SO_REUSEADDR
+
+
+
+
+while( pthread_mutex_trylock(&alock) == some error code )
+{
+	.. do stuff ...
+	... put myself to sleep for a while
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+

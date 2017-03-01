@@ -1,0 +1,53 @@
+Abhishek Prajapati
+Eric Cajuste
+
+		Test Cases
+Test case 1:
+INPUT: 1,2,3,4,5,6
+OUTPUT: 6,5,4,3,2,1
+REMOVE 5: 6,4,3,2,1
+
+Test case 2:
+INPUT: a,b,c,d,e,f
+OUTPUT: f,e,d,c,b,a
+REMOVE f: e,d,c,b,a
+
+Test case 3:
+INPUT: 234 989 9999 33 99 1
+OUTPUT: 9999, 989, 234, 99, 33, 1
+REMOVE 1: 9999, 989, 234, 99, 33
+
+Test case 4:
+INPUT:  hello, hi, how, are, you
+OUTPUT: you, how, hi, hello, are
+REMOVE WORLD:  you, how, hi, hello, are
+
+Test case 5:
+INPUT: 123.3, 0.123, 0.00123, 000123.123, 0.99999
+OUTPUT: 123.300000, 123.123000, 0.999990, 0.001230, 0.000123
+REMOVE 3: 123.300000, 123.123000, 0.999990, 0.001230, 0.000123
+
+Test case 6:
+INPUT:  a z a a a a a a a a a a z z z 
+OUTPUT: z, a
+REMOVE Z: a
+
+Test case 7: 
+INPUT: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1  
+OUTPUT: 1
+REMOVE 1: 
+
+Test case 8:
+INPUT: hello hello world world
+OUTPUT: world hello
+REMOVE world: hello
+
+Test case 9:
+INPUT: z zz zzz zzzz zzzzz zzzzzz
+OUTPUT: zzzzzz zzzzz zzzz zzz zz z
+REMOVE x: zzzzzz zzzzz zzzz zzz zz z
+
+Test case 10:
+INPUT: 0.01, 0.001, 0.0001, 0.0001, 0.00001, 1.111
+OUTPUT: 1.111, 0.01, 0.001, 0.0001, 0.00001
+REMOVE 0.01: 1.111, 0.001, 0.0001, 0.00001

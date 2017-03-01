@@ -1,0 +1,12 @@
+TEST PLAN
+
+1) Testing invalid command line arguments
+  indexer.exe
+  indexer.exe some.json
+
+2) testing base behaviour
+   indexer.exe some.json  .
+   indexer.exe some.json  test
+   indexer.exe some.json  test/test1.txt
+
+Every test plan checks program behaviour in a special case to demonstrate all functionality.

@@ -1,0 +1,98 @@
+Abhishek Prajapati
+Computer Science 111
+Assignment 5
+Test caes
+
+Problem 1 (PigLatin)
+Problem analysis: Create a face language PigLatin; if the word begins with a constant move the constant to last and add ay to the end, and if the word begins with vowel than add way to the end.
+input: word(one String)
+output: word(one String) using IO
+operation: =,+,==
+
+Test case 1:
+Inputs:
+word: heLLo
+Expected Output:
+eLLohay
+Actual Output:
+eLLohay
+
+Test case 2:
+Inputs:
+word: pigLatin
+Expected Output:
+igLatinpay
+Actual Output:
+igLatinpay
+
+Test case 3:
+Inputs:
+word: apple
+Expected Output:
+appleway
+Actual Output:
+appleway
+
+
+Problem 2 (Word Count)
+Problem analysis: Count the number of words in a sentence that meets specified minimum length (in letter).
+input: sentence, minimum length of the word
+output: word count
+operation: =,+,-, >=, !=, !, 
+
+Test case 1:
+Inputs:
+Sentence: hello how are you
+minimum length:4
+Expected Output:
+1
+Actual Output:
+1
+
+Test case 2:
+Inputs:
+sentence: hello how!!! are?? you!!!
+minimum word length: 4
+Expected Output:
+1
+Actual Output:
+1
+
+Test case 3:
+Inputs:
+sentence: science sc!ence sc!3nce
+minimum word length: 6
+Expected Output:
+2
+Actual Output:
+2
+
+Problem 3 (Compress)
+Problem analysis: write an algorithm that takes a block of data and reduces its size producing a block that contains the same information in less space
+input: string(regular)
+output: string(compressed)
+operation: =, ++, <, +=, !=, 
+
+Test case 1:
+Inputs:
+!!!!!!?????AAaaaBBbCCCCCcD
+Expected Output:
+6!5?2A3a2Bb5CcD
+Actual Output:
+6!5?2A3a2Bb5CcD
+
+Test case 2:
+Inputs:
+qwwwwwwwwweeeeerrtyyyyyqqqqwEErTTT
+Expected Output:
+q9w5e2rt5y4qw2Er3T
+Actual Output:
+q9w5e2rt5y4qw2Er3T
+
+Test case 3:
+Inputs:
+AAAABBBBCCCabcaabbcc
+Expected Output:
+4A4B3Cabc2a2b2
+Actual Output:
+4A4B3Cabc2a2b2

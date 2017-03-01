@@ -1,0 +1,84 @@
+
+
+index <target> <source>
+
+index anindex.txt afile
+index anindex.txt /usr/home/me/adir/     (afile otherfile)
+index anindex.txt adir/
+index anindex.txt ./adir/
+index anindex.txt ../adir/
+
+
+afile:
+thing a stuff thing
+
+otherfile:
+thing other g h
+
+
+
+thing:
+afile 2, otherfile 1
+
+a:
+afile 1
+
+stuff:
+afile 1
+
+other:
+otherfile 1
+
+g:
+otherfile 1
+
+h:
+otherfile 1
+
+
+
+
+
+/adirectory:
+somedirectory/
+afile
+anotherfile
+
+
+
+dirfd = opendir("./adirectory")
+dirent = readdir(dirfd)   
+dirent = readdir(dirfd)
+dirent = readdir(dirfd)
+ dirent = readdir(dirfd)  NULL/nothing
+
+
+
+#include <dirent.h>
+
+sizeof(struct dirent)
+sizeof( *readdir(dirfd) )
+
+
+
+fprintf(filedescriptor, "%d", a);
+
+
+int a = 0;
+char b = '1';
+a = atoi(b);
+
+if( a == 1)
+{
+	printf("coverted successfully!\n");
+	return 0;
+}
+else
+{
+	printf("did not convert - prof is full of it!\n");
+	return -1;
+}
+
+
+
+

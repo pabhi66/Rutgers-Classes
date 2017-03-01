@@ -1,0 +1,72 @@
+
+
+
+  Think about what malloc does - you give it a size, and it gives you a void* to a chunk of memory that size (or null). Well, when you start out you declare an array of some large size, say 5000 bytes (i.e. chars). If your MemEntry can fit in that space (sizeof(MemEntry) < 5000), then you can fit at least one MemEntry in there .. so you can cast the pointer to your array to be a pointer to a MemEntry. You know you have enough space to store one, so no problem. Linux/C will line up the data values in your struct and drop them into your memory. Your array can hold more than one MemEntry struct, but that's fine. Having less memory is bad, having too much is no problem. Think about how you would create an array of, say, 10 ints:
+
+
+int * p = (int*)malloc( sizeof(int)*10 );
+
+... you pass a size to malloc, get a pointer back, and cast it. You can then start writing integers into the space.
+Let's presume you know that integers on this machine are size 32:
+
+int * p = (int*)malloc( 320 );
+
+... this should do exactly the same thing. You have space for 10 integers.
+Okay, no probs. What if you got bored with integers and wanted to store a short in one of the spots?
+
+short a = 3;
+int * stuff = &p;
+stuff = stuff+2  //get me the third integer spot
+
+... now you know that a short MUST be smaller than an int, so if you have a spot that can store an int, you can 100% fit a short in there:
+
+short * otherstuff = (short*)stuff;
+*otherstuff = a;
+
+... as far as C is concerned, a 'type' is the amount of memory something takes up. If you ask for something of size int, but later decide to store something smaller, like a short, in that slot of memory, C couldn't care less. If you want to store something bigger though, then bad things will happen.
+
+So. You have a 5000 character array .. let's call it bigarray...
+
+char bigarray[5000];
+
+Point to it ..
+
+char * stuff = &bigarray;
+
+You know that your MemEntry is smaller than 5000 bytes .. so you can store one in that space:
+
+MemEntry * head = (MemEntry*)stuff;
+
+You've now told C that you want to take that big gob of memory and, instead of storing chars in it, to treat it as a place to store MemEntrys. C does't care.
+
+head->free = 1;
+head->prev = 0;
+head->next = 0;
+head->size = 5000-sizeof(MemEntry);
+
+What if you want to allocate the the first block and give the user 50 bytes?
+
+current = head;
+
+current->free = 0;
+current ->next = ? //where should you point to?
+
+You should point to the next MemEntry struct .. but there isn't one yet .. well, do you have space to create one?
+if( (current->size - (sizeuseraskedfor)) > sizeof(MemEntry) )
+// we have enough space for a new MemEntry .. yay!
+
+How did we cause a MemEntry to exist in the first place? We took a pointer that pointed to enough space for one and casted it. Okay, then. We'd like the next pointer in the current one to point to enough space to create the next MemEntry. So, it should point to the end of the current MemEntry, plus the length of the user's data. That would be the first place we can fit a new MemEntry:
+
+&current + sizeof(MemEntry) + sizeuseraskedfor;
+
+Start at current .. go sizeof(MemEntry) bytes forward to pass current .. then go sizeuseraskedfor bytes forward to get past the area we will give the user. That new memory location will be where the next MemEntry will go. We know we have enough space, because we checked in the if above .. so .. if we have a pointer to enough memory to store something, how do we start using that memory as the type of the thing we want? Cast it!
+
+
+(MemEntry*) (&current + sizeof(MemEntry) + sizeuseraskedfor);
+
+Where should the next MemEntry go? Well, your next pointer in current should point to it:
+
+current->next = (MemEntry*) (&current + sizeof(MemEntry) + sizeuseraskedfor);
+
+  Poof! You have a brand-new MemEntry struct there. (be sure to initialize it!)
+

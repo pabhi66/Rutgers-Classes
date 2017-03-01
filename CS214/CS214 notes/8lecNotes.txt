@@ -1,0 +1,73 @@
+
+
+int
+
+(*a < *b)
+
+strcmp( a, b)
+
+*((int *)(a))
+
+
+===============
+
+
+sorted-list.h
+
+sorted-list.c
+
+
+
+gcc -o sorted-list.o -c sorted-list.c
+
+
+
+ar <flags> lib<name>.a <file0.o> [ ... fileN.o]
+
+c  -> create
+r   -> replace
+t   -> table (list contents)
+d  -> delete
+
+ar cr libsortedlist.a sorted-list.o
+
+ar r libsortedlist.a sorted-list.o
+
+ar t libsortedlist.a
+
+
+gcc main.c -lsortedlist -o testsortedlist
+                    ^lowercase "L"
+
+Makefile:
+
+all: libsl.a main.c
+gcc -L. main.c -lsl -o sl
+
+libsl.a: sorted-list.o
+ar r libsl.a sorted-list.o
+
+sorted-list.o: sorted-list.c
+gcc -o sorted-list.o -c sorted-list.c
+
+
+
+
+cat  file0 file1 ... concateate files..
+more  ... display file with page breaks
+less ... display file with page breaks and scrolling
+
+command > filename   .. redirect output of command into a new file named filename
+
+
+head -n num file     ..print first n lines in file
+tail -n num file		..print last n lines in file
+
+
+ps  ... see all your processes and their pids
+
+
+
+
+
+

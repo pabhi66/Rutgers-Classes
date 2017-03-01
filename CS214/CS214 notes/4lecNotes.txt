@@ -1,0 +1,78 @@
+
+
+typedef
+->
+enum
+switch/case
+
+int * ptr = &array[0];
+*(ptr + 3);
+(*ptr)+3;
+
+*ptr+3;
+
+
+char array[] = "hello";
+printf("char: %c, string: %s, int: %d\n", array[0], array, array[0];
+
+fprintf
+sprintf
+
+int anum;
+int * ptr = &anum;
+
+&(ptr+1)
+
+scanf(" %d", ptr)   //chomp leading whitespaces
+
+
+
+printf("Say \"hello\" \n");
+
+
+printf("You got 100%%! Well done!\n");
+
+
+
+
+
+int function()
+{
+struct thing{
+BLAH!
+}
+
+struct thing stuff = {BLAH!};
+struct thing * ptr = &stuff;
+
+return ptr;   //<-- BAD JUJU! 
+}
+
+
+
+
+
+int function()
+{
+struct thing{
+BLAH!
+}
+
+struct thing stuff = {BLAH!};
+struct thing * ptr = (struct thing *)malloc( sizeof( stuff ));
+*ptr = stuff;
+
+return ptr;   //<-- BAD JUJU! 
+}
+
+
+free(ptr);
+
+
+
+
+
+
+
+
+

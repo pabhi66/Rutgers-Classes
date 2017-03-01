@@ -1,0 +1,130 @@
+Proj:
+
+\t \n \r <= escape chars
+
+printf("\n")
+
+"Hello"
+
+printf("Hello\n");  ==> Hello
+
+printf("\"Hello\n\"");  ==> Hello
+           ^             ^
+escapED chars
+
+
+escape chars (weirdness) => printf("error, escape char: [%x]\n", oddchar);
+
+
+
+R:
+
+malloc 
+calloc
+realloc
+
+initialize everything!
+
+(int *) calloc( sizeof(int), 20);
+
+
+free:
+
+int * p....
+
+free(p);
+free(p); // <= BAD JUJU
+
+
+char * array = "hello";
+free(array);  // <= BAD JUJU
+
+
+
+fn1()
+{
+ptr = Mallocate( stuff )  <== dynamic makes it fun!
+return ptr
+}
+
+fn0()
+{
+ptr0 = fn1;  <== no probs
+free(ptr0)   <== cleanup
+}
+
+
+fn1()
+{
+int * ptr = 3;  <== static/local var ... 
+return ptr
+}
+
+fn0()
+{
+ptr0 = fn1;  <== the pain!
+free(ptr0)  <== the horror!
+}
+
+
+ptr0 = realloc( ptr, 30);
+
+
+... check return value of malloc
+
+
+
+
+argc: number of arguments
+.. argv[0] <= name of executable
+
+.. check argc to be sure your args are there
+
+
+
+
+const!
+
+const int * ptr = 3;
+*ptr = 2; <== NG!
+ptr = &ptr0 .. OK!
+
+int const * ptr = 3;
+same as above
+
+
+int * const ptr = 3;
+ptr = &ptr0 <== NG!
+
+
+const int * const int = 3;
+
+
+
+
+header file:
+
+name.h
+
+#ifndef thing
+#define header.h
+
+	typedef enum neato = {THINGS} thing;
+
+#endif
+	
+
+	
+#include <stdlib.h>
+#include "header.h"
+	
+	
+	
+
+fprintf( stderr, "Error! Things broke in %s at line %d! I'm scared!\n", __FILE__, __LINE__);
+
+
+"\n" => '\' 'n'
+'\n' => '\n'
+
+

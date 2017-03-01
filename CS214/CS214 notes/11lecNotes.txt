@@ -1,0 +1,28 @@
+
+
+
+
+typedef struct stuff{
+MemEntry * prev
+MemEntry * next
+int size
+void * data
+} MemEntry;
+
+
+
+
+ptr =    (int*)malloc( sizeof( int )*5 )
+
+	ptr+2
+	
+
+ = {1, 4, 6, 7};
+ 
+ 
+ 
+ head+1
+	
+	
+	
+	

@@ -1,0 +1,83 @@
+
+		
+index indexfile.txt ./adirectory
+				^						^
+				|						|
+name of file to create	|
+										|
+name of file or directory to scan
+
+
+fd <- open("pathA\filename", flags)
+int <- read(fd, buff, datasize)
+
+dirfd <- opendir("pathB\")
+struct dirent <- readdir(dirfd)
+
+/usr/home/me/:
+subdir/
+file.txt
+filea.txt
+
+man 3 readdir
+
+
+dirfd = opendir("/usr/home/me/");
+struct dirent * stuff = readdir(dirfd);
+
+while( stuff != 0)
+{
+
+if( stuff->d_type == DT_REG)
+{
+	processfile( mypointer, stuff->d_name);
+}
+elseif( stuff->d_type == DT_DIR)
+{
+	processdir( mypointer, stuff->d_name);
+}
+
+struct dirent * stuff = readdir(dirfd);
+}
+
+
+
+
+
+====================================
+
+fork()
+
+
+Process:
+- code
+- variables
+
+Process control block:
+- file descriptors and file handles
+- signal disposition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+
+
+atexit( functionpointer )
+... register a function pointer to be called/executed just before the code returns, but after it is done executing
+
+
+exit( status )
+... tell code to stop running and terminate NORMALLY now - do not return
+-> calls atexit functions because it is a 'normal' termination
+
+_exit( optionalStatus )
+... tell code to stop running, now, for real - do not pass go, do not get $200
+-> does not call atexit functions because it is not a 'normal' termination
+
+
+
+Java:
+try{
+....do thing
+}
+catch(Exception e
+{
+... do thing
+}
+continue ...
+
+
+
+C:
+
+... code causes signal <-----------go back and try again
+-------------------------------------------> run signal handler
+
+
+
+
+call:
+user directly and explicitly asks for this to occur
+
+invoke:
+happens on behalf of the user, but without the user's direct request
+
+
+
+
+
+
+
+
+
+

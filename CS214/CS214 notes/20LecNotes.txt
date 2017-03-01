@@ -1,0 +1,142 @@
+
+Sockets:
+
+'allows you to communicate with processes on other machines'
+... OS abstraction for network communication
+
+client: (connecting TO the other side)
+	socket (create)
+	connect
+	read, write
+
+server: (BEING connected to)
+	socket (create)
+	bind (tie this socket to a specific local port)
+	listen
+	accept (BLOCKING CALL!)
+	read,write
+
+	
+basic C prototype for complex stuff:
+	makething( handleToThing, structOfAttributes, ... (other stuff if necessary) )
+
+
+	
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+	
+-0->
+-1->
+-2->
+-3->
+-4->
+	X
+	<- return 5
+	
+	
+Threads:
+
+concurrent execution of code
+...(handle, attr, fnPointer, args)
+fnPointer: void* function( void* )
+args: void*
+
+joinable/detached?
+join: ..can join:
+
+join(pthread_t* handle, void* status)
+
+
+make mutex_A
+make mutex_B
+code
+code
+code
+code
+code
+lock( mutex_A)
+access shared var A
+unlock(mutex_A)
+code
+code
+code
+code
+lock( mutex_A)
+lock( mutex_B)
+access shared var A
+access shared var B
+unlock( mutex_B)
+unlock( mutex_A)
+code
+code
+code
+
+
+
+
+
+DEADLOCK:
+
+Thread 0:									Thread 1:
+lock( mutex_A)							lock( mutex_B)
+lock( mutex_B)							lock( mutex_A)
+access shared var A					access shared var A
+access shared var B					access shared var B
+unlock( mutex_B)						unlock( mutex_B)
+unlock( mutex_A)						unlock( mutex_A)
+
+
+Thread 0:									Thread 1:
+lock mutex_A	
+-swap-													
+													lock mutex_B
+													-swap-
+
+													
+Conditions for deadlock:
+0. Mututal Exclusion													
+1. No pre-emption
+2. Hold and Wait
+3. Circular Wait
+
+													
+													
+													
+
+Normal operation:
+Thread 0:									Thread 1:
+lock( mutex_A)							lock( mutex_A)
+lock( mutex_B)							lock( mutex_B)
+access shared var A					access shared var A
+access shared var B					access shared var B
+unlock( mutex_B)						unlock( mutex_B)
+unlock( mutex_A)						unlock( mutex_A)
+
+
+Thread 0:									Thread 1:
+lock mutex_A	
+-swap-													
+													lock mutex_A ... wait on queue
+													-swap-
+.
+.
+.
+													
+													
+													
+
+													
+Thread 0:									Thread 1:
+lock( mutex_B)							lock( mutex_A)
+							
+													access shared var A
+access shared var B					
+
+unlock( mutex_B)						unlock( mutex_A)
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+a)  input: length, width of the array (n * n)(determine the size of the grid), value of t percent, placement of all cells(agents)
+
+     output: true, false (if the cell satisfies or not)
+
+ Algorithm  ->  In order for x or o to be satisfied, at least 30% of its neighbor have to be x or b.  so every time we check the cell, we have 8 neighbors to check.  That's only if the cell is not the the top,bottom,left, or right edge.  For check the cell that is not on the edge, we start from the top left, and move horizontally to bottom right, with special check to make sure we are not checking where we are currently standing.  If the cell we are currently on then we add 1 to that cell.  For example, if the cell we are standing is X, then while checking the surrounding cell, if the cells are X we do countX++.  Then after checking all the surrounding x we divide it by 8 to find out if the cell satisfies or not.  if X < 0.30 than false, if X>=0.30 then the cell satisfies.  And to check the cells on the edge, for the top left, top right, bottom left, and bottom right, we check the surrounding 3 cells and than figure out using division to figure out if the cell satisfies or not.  And for all the other cell on the edge we have to check the 5 surrounding to figure out if the cell satisfies or not.  And while check the cells, we have to make sure we do not go out out bound.
+
+
+
+b) We have to use loop (for loop would be the best in this case) and iterate through the array and check every cell horizontally and vertically.  So we have to start the loop at [o][o] ([i][j]) and end it at [n-1][n-1].  That's when we know the entire tissue has been checked.
+
+
+
+c) input: length and width of an array (n*n), # of cells
+
+    Output: true, false (if the tissue/cell satisfies or not)
+
+Using the algorithm from a, if the cell is not satisfies, you move the cell to the different(nearest) empty location or in the empty location near its (similar)kind of cell, and then check the tissue again to check it it satisfies or not.
+
+
+
+d) we will need addition(+) to count all the satisfied and unsatisfied cells and to move to the next cel. we also need division(/), multiplication(*), and percentage to figure out if the cell is satisfied or not. We will also need decrement and finding i and j for particular location. And == sign to compare the neighboring cells.
+
+
+
+e) algorithm have to run until the whole tissue is satisfied (so the algorithm will run n*n times, we have to check the each cell in the tissue).  so when you move the unsatisfied cell, you have to make sure again that the tissue is satisfied .  if not then the algorithm has to run again to satisfy the tissue, and all the cells.  It depends on the size of the array and the data arrangement in the array(grid). Smaller the array the less it will take, because there are less cells to check, and reorder them, and the bigger the array the longer it takes to sort the cells.

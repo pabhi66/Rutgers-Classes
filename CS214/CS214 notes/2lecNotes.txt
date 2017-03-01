@@ -1,0 +1,98 @@
+
+
+structs
+
+collection of data
+
+
+struct <name of struct> {
+	<type 0> <data 0>
+	...
+	| <type n> <data n>|
+};
+
+
+union {
+	<type 0> <data 0>
+	...
+	| <type n> <data n>|
+} <name of union>;
+
+
+
+
+char[] thing  = "hello";
+
+
+
+
+
+file descriptor?
+
+
+
+
+
+Pointers(!): (heading)
+
+
+int a = 5;
+int *ptr = &a;
+//int* ptr = &a;
+//int *ptr = a;
+
+
+*ptr   value at address
+ptr     address where value lives
+
+&<variable> address of variable
+
+*ptr
+
+
+//*(apple.bananna)
+
+
+
+
+(*ptr)+1  would this be 6?
+
+ptr+1   what does this mean?
+
+
+
+char[] thing  = "hello";
+char stuff = 'z';
+
+
+
+
+
+printf("thing to print %d, %d, %d\n", a, 3, 4  );
+
+
+
+typedef:
+
+struct point{
+	int x;
+	int y;
+};
+
+
+typedef <thing> .... <new type name>;
+
+typedef struct point{
+	int x;
+	int y;
+} coord;
+
+
+coord
+
+
+typedef char* letter;
+
+
+
+

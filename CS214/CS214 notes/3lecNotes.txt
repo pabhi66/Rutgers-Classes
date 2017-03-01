@@ -1,0 +1,199 @@
+
+
+
+
+
+123hello
+
+0	1	2
+1		7
+
+word: hello123
+
+alphabetic: [A-Z,a-z]
+alphanumeric: [A-Z,a-z,0-9]
+
+a9890x123
+
+
+a
+
+
+* "0 or more .. any number"
++ "1 or more .. at least 1"
+
+[A-Z,a-z]{1} [A-Z,a-z,0-9]*
+
+
+
+
+int: [1-9]{1} [0-9]*   OR   0
+hex: 0x[A-F,a-f,0-9]+
+oct: 0{1} [0-7]+
+
+
+08
+
+
+10x1
+
+int: 10
+word: x1
+
+int: 1
+hex: 0x1
+
+
+a230x
+
+
+a230xo85nwopytnrwiytroiuwoiucnwpoiunwpoicnwoincgeouigns9847932
+
+
+
+==========================
+
+
+
+typedef long length;
+
+
+length ruler = 12;
+int a = 3;
+
+a = ruler + a;
+
+
+struct point{
+	int x;
+	int y;
+};
+
+struct point loc0 = {1,2};
+
+
+
+typedef struct point{
+	int x;
+	int y;
+} coord;
+
+coord loc0 = {1,2};
+
+
+coord * temp = &loc0;
+struct point * tmp = &loc0;
+
+loc0.x
+
+(*tmp).y
+tmp->y
+
+
+
+
+
+int a = 4;
+int * ptr = &a;
+
+printf("a: %d\n", *ptr);
+
+
+printf("a: %d\n", *(ptr+4));
+printf("a: %d\n", *(ptr)+4);
+
+
+
+char * array[] = "hello";
+char * ptr = &array;
+printf("char?: %c\n", *(ptr+0));
+printf("char?: %c\n", array[0]);
+
+
+
+enum tokentypes {WORD, INT, HEX};
+
+enum tokentypes currenttoken = INT;
+
+
+typedef enum tokentypes {WORD, INT, HEX} TT;
+
+TT currenttoken = INT;
+
+
+
+
+
+typedef enum stuff {true, false} boolean;
+
+boolean thingy = true;
+
+
+typedef enum junk1234 {GALLON=64, QUART=16, PINT=8} volumes;
+
+volumnes container = GALLON;
+
+
+
+switch( container )
+{
+	case GALLON: 	statement0;
+	.
+	.
+	default: statement n;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

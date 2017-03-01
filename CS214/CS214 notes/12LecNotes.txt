@@ -1,0 +1,70 @@
+
+  int * p = (int *)malloc(sizeof(int)*10);
+  
+  int is 4B big
+  
+  int * p = (int *)malloc(40);
+
+
+MemEntry * p = (MemEntry *)malloc(sizeof(MemEntry)*10);
+
+
+MemEntry * p = (MemEntry *)malloc( 2000);
+
+.
+.
+.
+
+int * q = (int *)p;
+
+
+
+#define bigarraysize 5000;
+
+
+void * mallocish( unsigned int allocate )
+
+//check to see if malloc has been run yet
+
+if it hasn't!:
+	root = (memEntry*) bigarray ..
+	- initialize first memEntry
+		root->prev = 0;
+		next 0
+		size bigarraysize - sizeof(memEntry)
+		free 1
+
+		
+//find a mementry to use ..
+current = root;
+
+while( haven't found a suitable mementry AND haven't fallen off the end yet)
+
+if( current mementry size is >= size of 'allocate'+sizeof(memEntry))
+	if ( current mementry is free )
+		current->free = 0
+		
+
+
+
+
+
+#define malloc(x)	mymalloc(x, __FILE__, __LINE__)
+
+
+
+
+void * mymalloc( size_t allocate, filename, linenumber)
+
+fprintf(STDERR, "User did a bad thing in file %s on line %d\n", filename, linenumber);
+
+
+
+
+
+
+
+
+
+		
+		

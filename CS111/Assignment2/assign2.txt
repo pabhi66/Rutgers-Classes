@@ -1,0 +1,90 @@
+Name: Abhishek Prajapati
+Assignment 2
+
+Problem 1:
+problem statement: Find the sum of two integers
+input: value1, value2
+output: sum
+Error Condition: non integers numbers
+operation used: +, =
+
+Problem 1 (add two integers)
+—————-
+Test case 1:
+Inputs:
+value1    5
+value2    -2
+Expected output: 
+sum 3
+Actual output
+sum 3
+
+Test case 2:
+Inputs:
+value1    15
+value2    -15
+Expected output: 
+sum 0
+Actual output
+sum 0
+
+Test case 3:
+Inputs:
+value1    5.3
+value2    -2
+Expected output: 
+sum error (since i am only taking integers)
+Actual output
+sum (IO file is asking me to enter an integer again)
+	Ex enter a number 5.5
+	this is not an integer. Enter again ..
+
+
+Problem2
+Problem statement: Generate a canonical form, degree 3 polynomial given its roots.
+Input: root1, root2, root3
+Output: polynomial
+Error Condition: non integer value
+operation used: +, -, *, =
+
+problem 2 (canonical form of the polynomial with roots)
+——————
+Test case 1:
+inputs:
+root1    5
+root2    -3
+root3    2
+Expected output:
+x^3 + -4x^2 + -11x + 30
+Actual output
+x^3 + -4x^2 + -11x + 30
+
+Test case 2:
+inputs:
+root1    15
+root2    -5
+root3    10
+Expected output:
+x^3 + -20x^2 + 25x + 750
+Actual output
+x^3 + -20x^2 + 25x + 750
+
+Test case 3:
+inputs:
+root1    0
+root2    0
+root3    0
+Expected output:
+x^3 + 0x^2 + 0x + 0
+Actual output
+x^3 + 0x^2 + 0x + 0
+
+Test case 3:
+inputs:
+root1    -1
+root2    -1
+root3    -1
+Expected output:
+x^3 + 3x^2 + 3x + 1
+Actual output
+x^3 + 3x^2 + 3x + 1

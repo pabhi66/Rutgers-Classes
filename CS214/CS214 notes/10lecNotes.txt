@@ -1,0 +1,51 @@
+
+
+kill [signum] <pid>
+
+top ..
+
+ps
+
+pipe .. (|)
+more .. less
+
+chmod <octal string | <level><+/-><permission> >  <file>
+
+chmod a-w thing
+
+chown 
+
+
+(errno!)
+
+file: 
+fopen 
+
+fclose
+
+read
+
+write
+
+
+
+static char myblock[5000]
+
+typedef struct MemNode 
+...
+Node;
+
+
+
+sizeof(Node)
+
+char * memory ... 
+
+(Node*) memory
+
+
+
+
+
+
+

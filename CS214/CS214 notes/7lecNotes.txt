@@ -1,0 +1,98 @@
+
+
+
+headers:
+#include <system.h>
+#include "user.h"
+
+#define thing 300
+
+#define EXISTS !=0
+
+#define SQUARE(x) x*x
+SQUARE(a+2) => a+2*a+2
+
+#define SQUARE(x) (x)*(x)
+SQUARE(a+2) => (a+2)*(a+2)
+
+#define CHECK(x,y) (++x < y++) ? ++x:y++
+
+int x = 2;
+printf("x: %d\n", ++x);   vs   printf("x: %d\n", x++);
+
+if( x == 3 )
+{
+	printf("it is 3\n");
+}
+
+
+Function pointers
+
+int thingy( char important, int lessimportant, float * dontcare )
+.....
+
+
+int (*funcpointer)( char, int, float*)  <- pointer to a function that returns an int
+
+int * functionpointer <- pointer to an int
+
+
+int (*funcpointer)( char, int, float*) = thingy;
+
+
+funcpointer( ... appropriate parameters ... )
+
+
+
+
+stufflib.h:
+#ifndef stufflib_h
+#define stufflib_h
+//lots of cool things
+#define DATASIZE 200
+int awesomefunction(int thing);
+#endif 
+
+stufflib.c:
+#include <stdlib.h>
+#include "stufflib.h"
+int awesomefunction(int thing)
+{
+	return thing;
+}
+
+runfunc.c:
+#include <stdlib.h>
+#include "stufflib.h"
+
+int main()
+{
+	printf("%d\n", awesomefunction(-1));
+}
+
+
+
+
+
+<target>: [prereq0] .. [prereqN]
+	[command]
+
+
+
+Makefile:
+
+all: stufflib.o
+	gcc -c runfunc runfunc.c stufflib.o
+
+stufflib.o: stufflib.c
+	gcc -o stufflib.o -c stufflib.c
+	
+clean:
+		rm *.o ./runfunc
+	
+
+	
+	
+	
+	
+	

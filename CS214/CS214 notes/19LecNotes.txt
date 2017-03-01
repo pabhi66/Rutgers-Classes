@@ -1,0 +1,54 @@
+
+Threads:
+'run concurrently' .. so do processes
+
+threads occupy the same address space - the address space of the creating process
+processes occupy different address spaces
+
+- on thread create .. new thread of execution in same address space
+- on fork .. copy of existing process in new address space
+
+
+ int pthread_create(pthread_t *thread, const pthread_attr_t *attr, void *(*start_routine) (void *), void *arg);
+
+
+int pthread_create(  threadhandle, threadoptions/behavior, functionToRun, function'sArguments)
+
+build a thread in the "threadoptions/behavior" manner, to run "functionToRun" with arguments "function'sArguments" and give me a handle/reference to it named "threadhandle"
+
+
+
+Sockets:
+
+The steps involved in establishing a socket on the server side are as follows:
+
+    -> Create a socket with the socket() system call
+    -> Bind the socket to an address using the bind() system call. 
+    -> Listen for connections with the listen() system call
+    -> Accept a connection with the accept() system call. This call typically blocks until a client connects with the server.
+	.
+	.
+	.
+    Send and receive data 
+
+	(For a server socket on the Internet, an address consists of a port number on the host machine.)
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

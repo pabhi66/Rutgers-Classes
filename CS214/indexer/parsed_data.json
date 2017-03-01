@@ -1,0 +1,378 @@
+{"list" : [
+		{"0" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"_stat" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"a" : [
+			{"test/sample.txt" : 4},
+			{"test/sub2/test1.txt" : 1},
+			{"test/test1.txt" : 1}
+		]},
+		{"a1aa" : [
+			{"test/sub1/test2.txt" : 1},
+			{"test/test2.txt" : 1}
+		]},
+		{"a2" : [
+			{"test/sub1/test2.txt" : 2},
+			{"test/test2.txt" : 2},
+			{"test/sub2/test2.txt" : 1}
+		]},
+		{"aaa" : [
+			{"test/sub1/test1.txt" : 1},
+			{"test/sub2/test1.txt" : 1},
+			{"test/sub2/test2.txt" : 1},
+			{"test/test1.txt" : 1}
+		]},
+		{"about" : [
+			{"test/sample.txt" : 4}
+		]},
+		{"abs" : [
+			{"test/sub1/test1.txt" : 1}
+		]},
+		{"also" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"an" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"and" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"answer" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"any" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"apis" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"are" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"as" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"asking" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"aware" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"b2bb" : [
+			{"test/sub1/test2.txt" : 1},
+			{"test/test2.txt" : 1}
+		]},
+		{"bbb" : [
+			{"test/sub1/test1.txt" : 1},
+			{"test/sub2/test1.txt" : 1},
+			{"test/sub2/test2.txt" : 1},
+			{"test/test1.txt" : 1}
+		]},
+		{"be" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"better" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"bs" : [
+			{"test/sub1/test2.txt" : 1},
+			{"test/sub2/test1.txt" : 1},
+			{"test/sub2/test2.txt" : 1},
+			{"test/test1.txt" : 1},
+			{"test/test2.txt" : 1}
+		]},
+		{"but" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"by" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"call" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"can" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"ccc" : [
+			{"test/sub1/test1.txt" : 1},
+			{"test/sub1/test2.txt" : 1},
+			{"test/sub2/test1.txt" : 1},
+			{"test/sub2/test2.txt" : 1},
+			{"test/test1.txt" : 1},
+			{"test/test2.txt" : 1}
+		]},
+		{"checking" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"compatibility" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"could" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"curious" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"didn" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"dir/link" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"directories" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"directory" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"does" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"don" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"eaccess" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"enoent" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"enotdir" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"errno" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"even" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"exist" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"fancier" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"file" : [
+			{"test/sample.txt" : 4}
+		]},
+		{"generally" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"get" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"getfileattributes" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"ggg" : [
+			{"test/sub1/test1.txt" : 1},
+			{"test/sub1/test2.txt" : 1},
+			{"test/sub2/test1.txt" : 1},
+			{"test/sub2/test2.txt" : 1},
+			{"test/test1.txt" : 1},
+			{"test/test2.txt" : 1}
+		]},
+		{"give" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"have" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"however" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"if" : [
+			{"test/sample.txt" : 12}
+		]},
+		{"in" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"is" : [
+			{"test/sample.txt" : 5}
+		]},
+		{"it" : [
+			{"test/sample.txt" : 5}
+		]},
+		{"itself" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"know" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"later" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"like" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"link" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"lstat" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"native" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"not" : [
+			{"test/sample.txt" : 4}
+		]},
+		{"of" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"on" : [
+			{"test/sample.txt" : 5}
+		]},
+		{"one" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"opened" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"or" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"other/file" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"part" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"path" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"permission" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"platform" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"points" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"prefer" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"probably" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"provided" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"querying" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"re" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"read" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"result" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"results" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"return" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"s" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"should" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"since" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"so" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"stat" : [
+			{"test/sample.txt" : 4}
+		]},
+		{"symlink" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"symlinks" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"t" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"that" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"the" : [
+			{"test/sample.txt" : 10}
+		]},
+		{"then" : [
+			{"test/sample.txt" : 6}
+		]},
+		{"they" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"to" : [
+			{"test/sample.txt" : 5}
+		]},
+		{"ttt" : [
+			{"test/sub1/test1.txt" : 1},
+			{"test/sub1/test2.txt" : 1},
+			{"test/sub2/test1.txt" : 1},
+			{"test/sub2/test2.txt" : 1},
+			{"test/test1.txt" : 1},
+			{"test/test2.txt" : 1}
+		]},
+		{"unix" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"use" : [
+			{"test/sample.txt" : 4}
+		]},
+		{"usually" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"vista" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"want" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"warn" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"what" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"whether" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"which" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"will" : [
+			{"test/sample.txt" : 2}
+		]},
+		{"windows" : [
+			{"test/sample.txt" : 3}
+		]},
+		{"with" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"works" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"would" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"wrapper" : [
+			{"test/sample.txt" : 1}
+		]},
+		{"you" : [
+			{"test/sample.txt" : 19}
+		]}
+]}

@@ -1,0 +1,20 @@
+1) testing invalid command line arguments
+
+./index a add file1
+result: invalid arguments
+expected: invalid arguments
+
+2). writing to file
+./index test.json test.txt
+result: writing to file..
+	succeeded..
+expected: writing to file..
+	succeeded..
+
+3) over writing
+./index test.json test.txt
+result: file already exists do you want to over write it? (y/n)
+expected: file already exists do you want to over write it? (y/n)
+
+Every test plan checks program behaviour in a special case to demonstrate all functionality.
+

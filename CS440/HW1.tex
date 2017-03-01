@@ -1,0 +1,107 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{amssymb}
+
+\title{\bf Assignment 1 Search Methods}
+\author{Abhishek Prajapati}
+\date{10/14/16}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+%Question 1
+\item
+
+
+\textbf{Answer:}
+
+\begin{enumerate}
+    \item format: (city, f(city), g(city), h(city))\\
+(Lugoj,244,0,244)\\ (Mehadia,311,70,241)\\ (Lugoj,384,140,244)\\ (Drobeta,387,145,242)\\ (Craiova,425,265,160)\\ (Timisoara,440,111,329)\\ (Mehadia,451,210,241)\\ (Mehadia,456,215,241)\\ (Lugoj,466,222,244)\\ (Pitesti,503,403,100)\\ (Bucharest,504,504,0)
+
+
+\end{enumerate}
+
+%Question 2
+\item
+
+
+\textbf{Answer:}
+
+\begin{enumerate}
+    \item
+    \begin{itemize}
+    \item $h(n) = min$ \{$h_1(n),h_2(n)$\}
+    \begin{itemize}
+        \item It is admissible because: Let n be any state in the graph, as $h(n)$ by definition must be equal to either $h_1(n)$ or $h_2(n)$, which is upper bounded by the actual cost $h^∗(n), h(n)$ is also upper bounded by $h^∗(n)$. Q.E.D.
+        
+        \item It is consistent because: Let $n$ and $m$ be any two adjacent states in the graph, from the condition that $h_1$ and $h_2$ are consistent, then we have $h(n) ≤ h_1(n) ≤ c(n, m) + h_1(m)$ and $h(n) \leq h_2(n) \leq c(n, m) + h_2(m)$, combining above two inequalities, we conclude that $h(n) ≤ c(n, m) + min\{h_1(m),h_2(m)\}$ = $c(n,m)+h(m)$ for each pair of adjacent states n and m. Q.E.D.
+    \end{itemize}
+    \end{itemize}
+    
+    \begin{itemize}
+    \item $h(n) = wh_1(n) + (1-w)h_2$, where $0 \leq w \leq 1$
+        \begin{itemize}
+            \item It is admissible because: Let $n$ be any state in the graph, from the condition that $h_1$ and $h_2$ are admissible and$w ∈ [0, 1]$, then we have $h(n) \leq wh∗(n) + (1 − w)h^∗(n)$ = $h^∗(n)$ for each state $n$. Q.E.D.
+        
+            \item It is consistent because: Let $n$ and $m$ be any two adjacent states in the graph, from the condition that $h_1$ and $h_$2 are consistent, then we have $h(n) \leq w(c(n, m)+h_1(m))+(1−w)(c(n, m)+h_2(m))$. Rearranging the right side of the above inequality, we have $h(n) \leq c(n, m) + wh_1(m) + (1 − w)h_2(m) = c(n, m) + h(m)$ for each pair of adjacent states $n$ and $m$. Q.E.D.
+        \end{itemize}
+        \end{itemize}
+     
+    \begin{itemize}   
+    \item $h(n) = max$ \{$h_1(n),h_2(n)$\}
+    \begin{itemize}
+        \item It is admissible because: Let n be any state in the graph, as $h(n)$ by definition must be equal to either $h_1(n)$ or $h_2(n)$, which is upper bounded by the actual cost $h^∗(n), h(n)$ is also upper bounded by $h^∗(n)$. Q.E.D.
+        
+        \item It is consistent because: Let $n$ and $m$ be any two adjacent states in the graph, and as $h(n)$ must be one of $h_1(n)$ and $h_2(n)$, we can assume $h(n) = h_1(n)$ without loss of generality, then from the condition that $h_1$ and $h_2$ are consistent, we have $h(n) = h_1(n) \leq c(n, m) + h_1(m) \leq c(n, m) + max\{h_1 (m), h_2 (m)\} = c(n, m) + h(m)$ for each pair of adjacent states n and m. Q.E.D.
+    \end{itemize}
+    \end{itemize}
+    
+    \item The algorithm is guaranteed to be optimal for $0 \leq w \leq 1$, since scaling $g(n)$ by a constant has no effect on the relative ordering of the chosen paths, but, if $w > 1$ then it is possible the $wh(n)$ will overestimate the distance to the goal, making the heuristic inadmissible. If $w \leq 1$, then it will reduce the estimate, but it is still guaranteed to underestimate the distance to the goal state.
+    
+    
+\end{enumerate}
+
+%Question 3
+\item
+
+\textbf{Answer:}
+
+\begin{enumerate}
+    \item We are going to prove the following claim:
+If there is a path from start to goal, ${A^∗}_ε$ returns an ε-approx solution s i.e. $Cost(s) \leq (1 + ε)Cost(s^∗)$ where $s^∗$ is the optimal solution; Other- wise, $A^∗$ stops at some step s.t. $O = ∅$.
+proof : remember the claim we used in problem 1b: the open list O always in- tersect with all the paths from start to goal if there exists one. We are going to reuse this claim for this proof. Assuming there exists a path from start to goal (otherwise trivially covered by the claim), then $A∗ε$ will eventually output one at some step. Let’s denote the last state expanded by $A∗ε$ as s and the state within the intersection of the optimal path and the open list O as $s^∗$. As s touches the goal, its heuristic is zero. According to the selection strategy, we then have the following inequalities: $g(s) \leq (1 + ε)minn∈O\{g(n) + h_A(n)\} \leq g(s^∗) + h_A(s^∗)$. As $h_A$ is admissible, $g(s^∗) + h_A(s^∗)$ is always upper bounded by the actual cost of $s^∗$, i.e. the optimal cost. Therefore, $g(s) = Cost(s) = \leq (1 + ε)Cost(s^∗)$. Q.E.D.
+    
+    \item The second heuristic function $h_N$ can be used to break ties for each selection from the open list. As the states in the open list satisfying the selection criteria could be multiple, we can use the second heuristic function (might be non- admissible) $h_N$ to pick the one with the minimal heuristic value to proceed on. By decreasing ε, the candidate set will shrink, and the tie-breaker $h_N$ will play less on the selection; in the other way, by increasing ε, the candidate set will expand, and therefore $h_N$ will play more to break the tie.
+
+
+\end{enumerate}
+
+%Question 4
+\item
+
+
+\textbf{Answer:}
+
+\begin{enumerate}
+    \item When the problem is about optimizing an objective function, which is concave [1] and smooth [2], then the randomness is not necessary, as the convergence to the maximum is assured for Hill Climbing. See the figure 1 for example.
+    
+    \item When the problem is about optimizing an objective function, which has a large number of maximums whose objective values are close to each other, and is almost flat around them, then random guessing plays as well as the Simulated Annealing.
+    
+    \item S.A. is useful when the objective function has multiple peaks (local maximum) which are different w.r.t. their objective values. See the figure 2 for example.
+    
+    \item Keep and return the best (maximal) state seen so far among the sequence of states visited by the algorithm.
+    
+    \item Divide the search domain into 2M equally large sub-domains and run an in- dependent S.A. procedure on each sub-domain for a few steps. As every S.A. procedure is independent from the others, we can run these 2M S.A. procedures in parallel. When all procedures finish, we can output the best solution among all 2M returns. This can be implemented using the Map-Reduce framework
+
+
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}

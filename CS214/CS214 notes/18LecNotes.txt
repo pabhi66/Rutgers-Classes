@@ -1,0 +1,39 @@
+
+thread ... 'thread of execution'
+
+d
+g
+g
+printf(stuff)
+someotherfunction(thing)
+h
+h
+
+
+d
+g
+printf(stuff)
+somefunction()
+d
+printf(stuff)
+someotherfunction(thing)
+h
+h
+
+
+
+mutex(stopdoingthings!)
+*p += 2;
+mutex(continue)
+
+
+*p += 2;
+
+
+
+
+
+
+
+
+

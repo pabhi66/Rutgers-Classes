@@ -1,0 +1,284 @@
+{"list" : [
+		{"" : [
+			{"test/.DS_Store" : 4}
+		]},
+		{"" : [
+			{"test/.DS_Store" : 4}
+		]},
+		{"" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"‡" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"128" : [
+			{"test/.DS_Store" : 1}
+		]},
+		{"139" : [
+			{"test/.DS_Store" : 1}
+		]},
+		{"171" : [
+			{"test/.DS_Store" : 1}
+		]},
+		{"29" : [
+			{"test/.DS_Store" : 1}
+		]},
+		{"547" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"5amyp" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"770" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"8" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"9s8" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"_" : [
+			{"test/.DS_Store" : 1}
+		]},
+		{"_" : [
+			{"test/.DS_Store" : 1}
+		]},
+		{"a" : [
+			{"test/test copy/test2.txt" : 2},
+			{"test/test/test2.txt" : 2},
+			{"test/test copy/test1.txt" : 1},
+			{"test/test/test1.txt" : 1},
+			{"test/test1.txt" : 1},
+			{"test/test2.txt" : 1}
+		]},
+		{"adjkfhak" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"adkfjakdfjka" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"ajkdflka" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"ajkhkfdjf" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"akdjlfakdfj" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"akldsf" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"b" : [
+			{"test/test/test1.txt" : 1}
+		]},
+		{"ba" : [
+			{"test/test copy/test2.txt" : 1},
+			{"test/test/test2.txt" : 1}
+		]},
+		{"baa" : [
+			{"test/test2.txt" : 1}
+		]},
+		{"boo" : [
+			{"test/test1.txt" : 1}
+		]},
+		{"bsgjsklfgoo" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"c" : [
+			{"test/test copy/test2.txt" : 1},
+			{"test/test/test2.txt" : 1}
+		]},
+		{"cat" : [
+			{"test/test2.txt" : 1}
+		]},
+		{"dog" : [
+			{"test/test1.txt" : 1}
+		]},
+		{"doooooooog" : [
+			{"test/test copy/test1.txt" : 1},
+			{"test/test/test1.txt" : 1}
+		]},
+		{"e" : [
+			{"test/test copy/test2.txt" : 1},
+			{"test/test/test2.txt" : 1}
+		]},
+		{"fgjklfjlkadf" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"fjlkaj" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"gflskj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"glsk" : [
+			{"test/test copy/test1.txt" : 3}
+		]},
+		{"glskf" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"glskfg" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"glskfjg" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"glskj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"gskfjdgslk" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"gsl" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"gslk" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"gslkfj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"jdkfhjk" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"jflak" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"jglsjkf" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"jlksfgj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"jlskfdj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"jsflkd" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"jslfkdg" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"kajf" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"kfsdl" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"kjashfadkfj" : [
+			{"test/test copy/test2.txt" : 1}
+		]},
+		{"kjjf" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"lfj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"lgksj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"lksdj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"lksfg" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"lksj" : [
+			{"test/test copy/test1.txt" : 3}
+		]},
+		{"lksjf" : [
+			{"test/test copy/test1.txt" : 2}
+		]},
+		{"lskdj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"lskfdg" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"lskfjg" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"lskj" : [
+			{"test/test copy/test1.txt" : 3}
+		]},
+		{"me" : [
+			{"test/test copy/test1.txt" : 1},
+			{"test/test/test1.txt" : 1}
+		]},
+		{"na" : [
+			{"test/test copy/test1.txt" : 1},
+			{"test/test/test1.txt" : 1}
+		]},
+		{"naadfadfafme" : [
+			{"test/test copy/test1.txt" : 1},
+			{"test/test/test1.txt" : 1}
+		]},
+		{"nam" : [
+			{"test/test copy/test2.txt" : 1},
+			{"test/test/test2.txt" : 1}
+		]},
+		{"name" : [
+			{"test/test1.txt" : 2},
+			{"test/test2.txt" : 1}
+		]},
+		{"oo" : [
+			{"test/test/test1.txt" : 1}
+		]},
+		{"s" : [
+			{"test/test copy/test1.txt" : 3}
+		]},
+		{"sad" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"sf9d7" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"sfgjs" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"sfkjs" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"showpathbar" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"showsidebar" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"showstatusbar" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"showtabview_containershowsidebar\windowbounds\sidebarwidth_previewpanevisibility" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"showtoolbar" : [
+			{"test/.DS_Store" : 2}
+		]},
+		{"sidle" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"skfjg" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"skj" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"slkjg" : [
+			{"test/test copy/test1.txt" : 1}
+		]},
+		{"t" : [
+			{"test/test copy/test2.txt" : 1},
+			{"test/test/test2.txt" : 1}
+		]},
+		{"tilocblob" : [
+			{"test/.DS_Store" : 1}
+		]},
+		{"Š¢£¤¥¦§¨ÂÄ" : [
+			{"test/.DS_Store" : 1}
+		]},
+		{"Š¢£¤¥¦§¨ÃÅ" : [
+			{"test/.DS_Store" : 1}
+		]}
+]}

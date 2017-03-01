@@ -1,0 +1,114 @@
+
+
+help@cs.rutgers.edu
+
+
+int i = 0;
+
+
+short
+int
+long
+float
+unsigned int
+
+
+sizeof(int)
+
+
+
+String, whence thee?
+boolean?
+
+
+
+
+
+int array[10];
+int array[] = {0, 1, 2, 3};
+int array[4] = {0, 1, 2, 3};
+
+
+int array[] = {0, 1, 2, 3};
+array[8] = -1;
+
+
+char array[5] = {'h', 'e', 'l', 'l', 'o', '\0'};
+char array[] = {'h', 'e', 'l', 'l', 'o', '\0'};
+char array[] = "hello";
+
+
+int array[3][4] = { {0, 2, 3, 4}, {4, 5, 2, 5}, {5, 6, 7, 2} };
+
+
+
+
+struct point{
+	int x;
+	int y;
+};
+
+
+struct point location = {0, 2};
+location.x
+
+
+struct rectangle{
+	struct point upperright;
+	struct point lowerleft;
+};
+
+struct rectangle plot = { {1, 2}, {3, 4} };
+struct rectangle plot = { {1, 2} };
+
+
+
+
+union {
+	char b
+	float a;
+	int i;
+}number;
+
+
+number.b = 'z';
+number.i ... 
+
+
+
+#include <ctype.h>
+
+
+isalpha()
+isalnum()
+isspace()
+isxdigit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,878 @@
+Rank,Major,Degree_Type,Early_Career_Pay,Mid_Career_Pay
+1,Petroleum Engineering,Bachelor's,96700,172000
+2,Systems Engineering,Bachelor's,66400,121000
+3,Actuarial Science,Bachelor's,60800,119000
+4,Chemical Engineering,Bachelor's,69800,119000
+5,Computer Science (CS) & Engineering,Bachelor's,71200,116000
+6,Nuclear Engineering,Bachelor's,68500,116000
+7,Electronics & Communications Engineering,Bachelor's,68000,115000
+8,Electrical & Computer Engineering (ECE),Bachelor's,68100,114000
+9,Aeronautical Engineering,Bachelor's,63000,113000
+10,Computer Engineering (CE),Bachelor's,69600,113000
+11,Computer Science (CS) & Mathematics,Bachelor's,63500,111000
+12,Physics & Mathematics,Bachelor's,56200,111000
+13,Applied Mathematics,Bachelor's,56100,110000
+14,Electrical Engineering (EE),Bachelor's,67000,110000
+15,Electrical & Electronics Engineering (EEE),Bachelor's,64000,108000
+16,Industrial & Systems Engineering,Bachelor's,63800,108000
+17,Materials Science & Engineering,Bachelor's,65800,108000
+18,Physics,Bachelor's,55100,108000
+19,Computer Science (CS),Bachelor's,65300,107000
+20,Engineering,Bachelor's,62600,107000
+21,Industrial Distribution,Bachelor's,56800,107000
+22,Mining Engineering,Bachelor's,70200,107000
+23,Aerospace Engineering,Bachelor's,65400,106000
+24,Government,Bachelor's,49600,105000
+25,Biomedical Engineering (BME),Bachelor's,62700,104000
+26,Industrial Engineering (IE),Bachelor's,63800,104000
+27,Structural Engineering (SE),Bachelor's,58700,104000
+28,Mechanical Engineering (ME),Bachelor's,63500,103000
+29,Physician Assistant Studies,Bachelor's,85200,103000
+30,Construction Engineering Management,Bachelor's,59500,102000
+31,Finance & Real Estate,Bachelor's,59500,101000
+32,Economics,Bachelor's,53900,100000
+33,Electronics Engineering,Bachelor's,61300,99600
+34,Engineering Management,Bachelor's,62800,98400
+35,Finance & Economics,Bachelor's,56700,98200
+36,Software Engineering,Bachelor's,64700,98100
+37,Biochemistry & Molecular Biology,Bachelor's,46000,97500
+38,Statistics,Bachelor's,57400,97500
+39,Management Information Systems (MIS),Bachelor's,58100,97400
+40,Building Construction Management,Bachelor's,54400,96500
+41,Civil Engineering (CE),Bachelor's,57200,96300
+42,Mathematics,Bachelor's,54000,95700
+43,Computing,Bachelor's,51400,95500
+44,Mathematics & Statistics,Bachelor's,53700,95300
+45,Management Science,Bachelor's,57200,95000
+46,Marketing & International Business,Bachelor's,45400,94800
+47,Packaging Science,Bachelor's,61100,94600
+48,Construction Management,Bachelor's,57400,94500
+49,Building Construction (BC),Bachelor's,56000,94000
+50,Manufacturing Engineering,Bachelor's,62000,93200
+51,Environmental Engineering,Bachelor's,53900,92800
+52,Business Information Systems,Bachelor's,56300,92600
+53,Information Systems (IS),Bachelor's,56300,92200
+54,Operations & Supply Chain Management,Bachelor's,52600,92200
+55,Civil & Environmental Engineering,Bachelor's,57200,91100
+56,Construction Engineering,Bachelor's,59800,91000
+57,International Business,Bachelor's,48800,91000
+58,Engineering Technology (ET),Bachelor's,52500,90800
+59,Agricultural Engineering (AE),Bachelor's,55000,90600
+60,Government & Politics,Bachelor's,44600,90400
+61,Aviation Management,Bachelor's,41900,90200
+62,Molecular Biology,Bachelor's,45500,90100
+63,Electrical Engineering Technology (EET),Bachelor's,59900,89900
+64,Architectural Engineering,Bachelor's,61700,89800
+65,Environmental Health & Safety,Bachelor's,51200,89800
+66,Finance,Bachelor's,53300,89600
+67,Computer Information Systems (CIS),Bachelor's,54300,89500
+68,Informatics,Bachelor's,60100,88800
+69,Industrial Management,Bachelor's,51600,88200
+70,Business Economics,Bachelor's,52100,87500
+71,Telecommunications Management,Bachelor's,50000,87500
+72,Mechanical Engineering Technology (MET),Bachelor's,57600,87400
+73,Information Systems Management,Bachelor's,54000,87200
+74,Information Technology (IT) & Systems,Bachelor's,52800,87100
+75,Telecommunications,Bachelor's,40800,87100
+76,Information Technology Management,Bachelor's,53700,86800
+77,Agricultural Economics & Business,Bachelor's,44600,86700
+78,Physical Therapy,Bachelor's,60300,86600
+79,Accounting & Finance,Bachelor's,52800,86400
+80,International Relations,Bachelor's,46500,86400
+81,Operations Management (OM),Bachelor's,54800,86200
+82,Information Security,Bachelor's,58300,85600
+83,Manufacturing Engineering Technology,Bachelor's,59100,85600
+84,Business & Marketing,Bachelor's,45800,85300
+85,Construction Project Management,Bachelor's,52500,85200
+86,Technical Communication,Bachelor's,45300,85100
+87,Electronics Engineering Technology (EET),Bachelor's,58100,84900
+88,Marketing & Management,Bachelor's,44700,84800
+89,Real Estate,Bachelor's,55400,84500
+90,Organizational Behavior,Bachelor's,47000,84400
+91,Supply Chain Management,Bachelor's,54500,84400
+92,Civil Engineering Technology (CET),Bachelor's,51300,84300
+93,Information Technology (IT),Bachelor's,53000,84300
+94,Politics,Bachelor's,45600,84300
+95,Philosophy,Bachelor's,44700,84100
+96,Industrial Engineering Technology,Bachelor's,60100,83600
+97,Industrial Technology (IT),Bachelor's,55200,83400
+98,Agribusiness,Bachelor's,43200,83100
+99,Public Affairs,Bachelor's,46800,83100
+100,Biochemistry (BCH),Bachelor's,44700,83000
+101,Business Management & Marketing,Bachelor's,45000,83000
+102,Chemistry,Bachelor's,45700,83000
+103,Computer Information Systems,Bachelor's,47100,82800
+104,Meteorology,Bachelor's,43600,82700
+105,Computer Programming,Bachelor's,50500,82600
+106,Marketing,Bachelor's,45300,82500
+107,Industrial Design (ID),Bachelor's,48600,82100
+108,Occupational Health and Safety,Bachelor's,54900,82100
+109,Financial Accounting,Bachelor's,45100,82000
+110,Pre-Medicine,Bachelor's,42700,81200
+111,Food Science,Bachelor's,46700,81100
+112,Sales & Marketing,Bachelor's,45400,80800
+113,Risk Management & Insurance,Bachelor's,52300,80600
+114,Food Science & Technology,Bachelor's,49000,80400
+115,Biology & Chemistry,Bachelor's,41500,79900
+116,Political Science (PolySci),Bachelor's,44300,79900
+117,Advertising,Bachelor's,41400,79800
+118,Advertising & Marketing Communications,Bachelor's,43400,79800
+119,Geology,Bachelor's,44800,79800
+120,Architecture,Bachelor's,45100,79300
+121,Microbiology,Bachelor's,44600,79300
+122,Biological Sciences,Bachelor's,42900,79200
+123,Marketing & Communications,Bachelor's,44900,79000
+124,Transportation & Logistics Management,Bachelor's,47800,78900
+125,Marketing Management,Bachelor's,45300,78500
+126,Urban & Regional Planning,Bachelor's,44000,78100
+127,Fashion Design,Bachelor's,41400,77700
+128,Project Management,Bachelor's,49500,77700
+129,Logistics & Supply Chain Management,Bachelor's,51800,77400
+130,Financial Management,Bachelor's,49300,77300
+131,Law,Bachelor's,47600,77300
+132,Accounting,Bachelor's,48300,77200
+133,Environmental Design,Bachelor's,42900,77200
+134,Organizational Development,Bachelor's,52800,77100
+135,Environmental Science,Bachelor's,43300,77000
+136,Business Communication,Bachelor's,44400,76600
+137,Logistics,Bachelor's,51500,76500
+138,Technology Management,Bachelor's,52500,76400
+139,History & Political Science,Bachelor's,44500,76000
+140,Finance & Banking,Bachelor's,48600,75900
+141,Technical Management,Bachelor's,46300,75700
+142,Dental Hygiene,Bachelor's,65400,74900
+143,Industrial Psychology,Bachelor's,44000,74900
+144,Aeronautics,Bachelor's,53900,74600
+145,Entrepreneurship,Bachelor's,48000,74600
+146,Agronomy,Bachelor's,45600,74400
+147,English Literature,Bachelor's,41100,74300
+148,Digital Media,Bachelor's,40800,74200
+149,Environmental Studies,Bachelor's,41500,74200
+150,Foreign Languages,Bachelor's,42500,74200
+151,Information Systems Security,Bachelor's,57100,74200
+152,Nursing,Bachelor's,57500,74100
+153,Landscape Architecture,Bachelor's,44400,74000
+154,General Business,Bachelor's,45000,73900
+155,History,Bachelor's,42200,73600
+156,Film Production,Bachelor's,41400,73500
+157,Literature,Bachelor's,40400,73500
+158,Biology,Bachelor's,40800,73100
+159,Management,Bachelor's,45000,73000
+160,Computer Aided Drafting & Design (CADD),Bachelor's,43300,72800
+161,Design,Bachelor's,42400,72700
+162,General Science,Bachelor's,41600,72600
+163,Business Management & Human Resources Management (HRM),Bachelor's,42100,72500
+164,American Studies,Bachelor's,45100,72400
+165,Business Administration,Bachelor's,46100,72400
+166,Professional & Technical Writing,Bachelor's,42700,72400
+167,Business Management,Bachelor's,45800,72300
+168,Communication,Bachelor's,42100,72300
+169,Theatre & Drama Studies,Bachelor's,40400,72300
+170,Urban Studies,Bachelor's,44500,72300
+171,Communication Studies & Journalism,Bachelor's,39800,72100
+172,Interior Architecture,Bachelor's,43200,72100
+173,Computer Networking Systems,Bachelor's,46900,71900
+174,German Language & Literature,Bachelor's,44400,71700
+175,International Studies,Bachelor's,43300,71700
+176,Pre-law,Bachelor's,42300,71300
+177,Public Relations & Communication,Bachelor's,39800,71200
+178,Diagnostic Medical Sonography,Bachelor's,57700,71100
+179,French Language,Bachelor's,43900,71000
+180,Journalism & Mass Communication,Bachelor's,41100,71000
+181,Accounting & Management,Bachelor's,48700,70800
+182,Public Relations (PR),Bachelor's,40100,70700
+183,Speech Communication,Bachelor's,42000,70600
+184,Accounting & Business,Bachelor's,45200,70500
+185,Environmental Biology,Bachelor's,40900,70400
+186,Film Studies,Bachelor's,39800,70000
+187,American History (United States),Bachelor's,42000,69600
+188,Journalism,Bachelor's,41200,69400
+189,Environmental Management,Bachelor's,47400,69300
+190,Marketing & Mass Communications,Bachelor's,40600,69000
+191,Broadcast Communication,Bachelor's,35600,68700
+192,Geographic Information Systems (GIS),Bachelor's,44900,68700
+193,Natural Resource Management,Bachelor's,39500,68700
+194,English Language & Literature,Bachelor's,40400,68200
+195,Geography,Bachelor's,43800,68200
+196,Human Resources Management (HRM),Bachelor's,42300,68100
+197,Nuclear Medicine Technology,Bachelor's,55200,67900
+198,Linguistics,Bachelor's,44500,67800
+199,Technical Theatre,Bachelor's,35100,67700
+200,Agriculture,Bachelor's,40800,67600
+201,Business Administration & Accounting,Bachelor's,44900,67500
+202,Forestry,Bachelor's,41500,67400
+203,Zoology,Bachelor's,35600,67300
+204,Advertising & Graphic Design,Bachelor's,42400,67100
+205,Writing,Bachelor's,38000,67000
+206,Computer & Network Administration,Bachelor's,50800,66900
+207,Business Management & Administration,Bachelor's,46100,66700
+208,International Affairs,Bachelor's,44200,66600
+209,Multimedia & Web Design,Bachelor's,42300,66500
+210,"Film, Video & Media Studies",Bachelor's,39600,66300
+211,Human Resources (HR),Bachelor's,41900,66300
+212,Mass Communication,Bachelor's,40200,66300
+213,Organizational Management,Bachelor's,44000,66300
+214,Radio/Television & Film Production,Bachelor's,40700,66200
+215,Public Administration,Bachelor's,40900,66100
+216,Radiologic Technology,Bachelor's,45100,66000
+217,Creative Writing,Bachelor's,38900,65900
+218,Media Communication,Bachelor's,39400,65500
+219,Leadership,Bachelor's,47100,65300
+220,Organizational Leadership,Bachelor's,43900,65300
+221,Sports Management,Bachelor's,39100,65200
+222,Cultural Anthropology,Bachelor's,41000,65000
+223,Music Performance,Bachelor's,39900,65000
+224,Organizational Communication,Bachelor's,41400,65000
+225,Radio & Television,Bachelor's,38000,64300
+226,Broadcast Journalism,Bachelor's,38400,64200
+227,Medical Laboratory Technology,Bachelor's,48500,64000
+228,Criminal Justice Administration,Bachelor's,39000,63900
+229,Health Information Management,Bachelor's,41700,63800
+230,Visual Arts (VA),Bachelor's,39600,63800
+231,Secondary English Teacher Education,Bachelor's,37800,63700
+232,Criminology,Bachelor's,39500,63600
+233,Spanish Language,Bachelor's,40300,63600
+234,Art History,Bachelor's,40800,63300
+235,Fashion Merchandising,Bachelor's,41200,63000
+236,Respiratory Therapy,Bachelor's,46200,62900
+237,Hotel & Restaurant Management,Bachelor's,41000,62800
+238,Illustration,Bachelor's,39000,62800
+239,Clinical Laboratory Science,Bachelor's,48800,62700
+240,"Hotel, Restaurant, and Institutional Management (HRIM)",Bachelor's,50500,62700
+241,Art & Design,Bachelor's,39500,62600
+242,Health Sciences,Bachelor's,38300,62600
+243,Business & Healthcare Management,Bachelor's,40000,62500
+244,Fine Arts,Bachelor's,38400,62500
+245,Visual Communication Design,Bachelor's,40700,62500
+246,Visual Communications,Bachelor's,40500,62400
+247,Liberal Arts,Bachelor's,39100,62300
+248,Sociology,Bachelor's,40400,62300
+249,Hospitality & Tourism,Bachelor's,37900,62200
+250,Communication Design,Bachelor's,45300,62100
+251,Psychology,Bachelor's,38300,62100
+252,Kinesiology,Bachelor's,37800,61800
+253,Nutrition,Bachelor's,40700,61600
+254,Medical Laboratory Science,Bachelor's,47900,61500
+255,Secondary Education,Bachelor's,40200,61400
+256,Interior Design,Bachelor's,39600,61000
+257,Health,Bachelor's,35700,60700
+258,Studio Art,Bachelor's,36700,60600
+259,Anthropology,Bachelor's,39900,60500
+260,Dietetics,Bachelor's,44300,60500
+261,Graphic Design,Bachelor's,40000,60500
+262,Public Health (PH),Bachelor's,38300,60500
+263,Exercise Physiology,Bachelor's,38400,60300
+264,Religious Studies,Bachelor's,38500,60300
+265,Hospitality Management,Bachelor's,40500,60200
+266,Health & Physical Education Teaching,Bachelor's,35900,60100
+267,Music Business,Bachelor's,39100,60000
+268,Social Science,Bachelor's,39700,60000
+269,Health Care Administration,Bachelor's,39400,59900
+270,Theater,Bachelor's,39500,59900
+271,Interdisciplinary Studies (IS),Bachelor's,39800,59500
+272,Human Resources Development,Bachelor's,40400,59400
+273,"Graphic Design, Illustration",Bachelor's,36800,59300
+274,Criminal Justice,Bachelor's,37000,59100
+275,Nutrition & Dietetics,Bachelor's,44000,59100
+276,Health Administration,Bachelor's,36600,59000
+277,Animal Science,Bachelor's,35800,58900
+278,Exercise & Sports Science,Bachelor's,36800,58900
+279,Foods & Nutrition,Bachelor's,40900,58700
+280,Painting,Bachelor's,37200,58700
+281,Photography,Bachelor's,38000,58700
+282,Liberal Studies,Bachelor's,39600,58600
+283,Restaurant & Food Service Management,Bachelor's,40600,58400
+284,Music,Bachelor's,38300,58300
+285,Theatre,Bachelor's,36500,58300
+286,Practical Nursing,Bachelor's,45300,58100
+287,Social & Criminal Justice,Bachelor's,40800,58100
+288,English Teacher Education,Bachelor's,35900,58000
+289,Education,Bachelor's,38700,57800
+290,Legal Studies,Bachelor's,40200,57800
+291,Administration,Bachelor's,39500,57600
+292,Graphic Communication,Bachelor's,40500,57300
+293,Physical Education Teaching,Bachelor's,39500,57300
+294,Humanities,Bachelor's,40900,57200
+295,Psychology & Sociology,Bachelor's,37800,57200
+296,Media Arts,Bachelor's,39600,57100
+297,Family & Consumer Science,Bachelor's,35900,56500
+298,Art,Bachelor's,36500,56400
+299,Religion,Bachelor's,37800,56400
+300,Behavioral Science,Bachelor's,35800,56200
+301,Recreation Management,Bachelor's,37800,56200
+302,Human Development,Bachelor's,36700,55900
+303,Communication Arts,Bachelor's,40000,55800
+304,Music Teacher Education,Bachelor's,36800,55600
+305,Health Care Management,Bachelor's,37800,55500
+306,Culinary Arts,Bachelor's,33100,55300
+307,Community Health Education,Bachelor's,37200,55200
+308,Culinary Arts & Culinary Management,Bachelor's,33600,55200
+309,Paralegal Studies,Bachelor's,35200,54900
+310,Theatre Arts,Bachelor's,37200,54900
+311,Dance,Bachelor's,38200,54800
+312,Women's Studies,Bachelor's,40400,54800
+313,Exercise Science,Bachelor's,35900,54700
+314,General Studies,Bachelor's,38700,54300
+315,Recreation & Leisure Studies,Bachelor's,39000,54300
+316,Athletic Training,Bachelor's,36000,51900
+317,Parks & Recreation Management,Bachelor's,38200,51700
+318,Health Services Administration,Bachelor's,36300,51500
+319,Special Education,Bachelor's,35000,51500
+320,Art Teacher Education,Bachelor's,35300,51300
+321,Theology,Bachelor's,37600,51200
+322,Culinary Arts & Food Service Management,Bachelor's,34700,50500
+323,Horticulture,Bachelor's,37600,50500
+324,Pastoral Ministry,Bachelor's,32800,50500
+325,Bible Studies & Theology,Bachelor's,34900,50400
+326,Biblical Studies,Bachelor's,36200,49400
+327,Elementary Education,Bachelor's,34700,48900
+328,Youth Ministry,Bachelor's,32900,48400
+329,Human Development & Family Studies,Bachelor's,34300,47800
+330,Therapeutic Recreation,Bachelor's,35200,47700
+331,Social Work (SW),Bachelor's,33800,46700
+332,Human Services (HS),Bachelor's,34000,44600
+333,Child Development,Bachelor's,32000,42500
+334,Early Childhood & Elementary Education,Bachelor's,34800,41900
+335,Child & Family Studies,Bachelor's,31400,40700
+336,Early Childhood Education,Bachelor's,30700,37500
+Rank,Major,Degree Type,Early Career Pay,Mid-Career Pay
+1,Computer Engineering (CE),Associate,41000,77300
+2,Economics,Associate,36500,76500
+3,Management Information Systems (MIS),Associate,43600,76400
+4,Construction Management,Associate,44500,73400
+5,Electrical Engineering (EE),Associate,42200,70800
+6,Electronics & Communications Engineering,Associate,43100,70700
+7,Engineering,Associate,37800,70500
+8,Dental Hygiene,Associate,62100,69100
+9,Computer Programming,Associate,42900,68800
+10,Occupational Health and Safety,Associate,52700,68700
+11,Electrical & Electronics Engineering (EEE),Associate,39700,68200
+12,Mechanical Engineering Technology (MET),Associate,41300,68100
+13,Mechanical Engineering (ME),Associate,42700,67500
+14,Computer Science (CS),Associate,40400,67300
+15,Civil Engineering (CE),Associate,35000,67000
+16,Electrical Engineering Technology (EET),Associate,42000,66900
+17,Nursing,Associate,52500,65600
+18,Electronic Systems Technology (EST),Associate,43400,65000
+19,Diagnostic Medical Sonography,Associate,52300,64800
+20,Mechanical Design,Associate,43800,64600
+21,Electronic & Computer Technology,Associate,41900,64500
+22,Civil Engineering Technology (CET),Associate,36900,64400
+23,Electrical & Computer Engineering (ECE),Associate,44100,63900
+24,Electronics Engineering,Associate,44900,63600
+25,Architecture,Associate,38600,63500
+26,Fashion Design,Associate,36200,63500
+27,Biomedical Equipment Technology,Associate,40900,62600
+28,Electronics Engineering Technology (EET),Associate,41300,61200
+29,Physical Therapy,Associate,47100,60800
+30,Aviation Maintenance Technology,Associate,41800,60600
+31,Computer Information Systems (CIS),Associate,40100,60500
+32,Electronics & Computer Technology,Associate,38200,60500
+33,Network Administration,Associate,39100,60400
+34,Electrical Construction & Maintenance,Associate,41300,60000
+35,Radiologic Technology,Associate,43500,59700
+36,Radiology,Associate,43600,59700
+37,Industrial Technology (IT),Associate,41700,59600
+38,Mathematics,Associate,37700,59600
+39,Radiography,Associate,44400,59600
+40,Information Technology (IT),Associate,39400,59500
+41,Electronics,Associate,41300,58600
+42,Computer & Network Administration,Associate,40200,58500
+43,Drafting & Design,Associate,39000,58400
+44,Occupational Therapy Assistant (OTA) Studies,Associate,51100,58400
+45,Computer Aided Drafting & Design (CADD),Associate,39400,58200
+46,"Heating, Air Conditioning, Ventilation & Refrigeration (HVAC) Maintenance Technology",Associate,35300,58100
+47,Information Systems (IS),Associate,41300,57900
+48,Respiratory Therapy,Associate,44700,57800
+49,Physical Therapist Assistant Studies,Associate,47400,57400
+50,Network Technology,Associate,40500,57000
+51,Architectural Technology,Associate,36700,56800
+52,Chemistry,Associate,33500,56700
+53,Fire Science,Associate,34700,56600
+54,Respiratory Care,Associate,45200,56500
+55,Computer Networking Systems,Associate,40600,56400
+56,Multimedia & Web Design,Associate,36200,56200
+57,Mortuary Science,Associate,35500,55400
+58,Political Science (PolySci),Associate,32700,55400
+59,Mechanical Drafting,Associate,39100,55200
+60,Diesel Technology,Associate,39300,55100
+61,Computer Technology,Associate,38900,54800
+62,Machine Tool Technology,Associate,38100,54200
+63,"Heating, Ventilation, Air Conditioning, & Refrigeration (HVAC) Studies",Associate,37800,54000
+64,Architectural Drafting,Associate,37200,53800
+65,Visual Communications,Associate,32600,53200
+66,Computer Aided Drafting (CAD),Associate,37400,53000
+67,Biology,Associate,30500,52900
+68,Culinary Arts & Culinary Management,Associate,31100,52900
+69,Human Resources Management (HRM),Associate,34900,52900
+70,Automotive & Diesel Technology,Associate,37800,52800
+71,Industrial Maintenance Technology,Associate,40700,52800
+72,English Language & Literature,Associate,33100,52500
+73,Communication,Associate,33600,52200
+74,Health Sciences,Associate,29900,51900
+75,Legal Studies,Associate,32300,51300
+76,Marketing,Associate,34400,51300
+77,Business Management,Associate,35000,51200
+78,Business Management & Marketing,Associate,31500,51100
+79,General Science,Associate,31400,51000
+80,Welding Technology,Associate,36700,51000
+81,Accounting & Finance,Associate,34000,50800
+82,Fashion Merchandising,Associate,33300,50800
+83,Interior Design,Associate,35000,50300
+84,Criminal Justice Administration,Associate,36800,50200
+85,Law Enforcement,Associate,34000,50200
+86,English Language,Associate,31300,50000
+87,Finance,Associate,31900,49700
+88,Business & Marketing,Associate,34700,49600
+89,Business Administration,Associate,33900,49600
+90,General Business,Associate,34000,49600
+91,Automotive Technology,Associate,31500,49300
+92,"Graphic Design, Illustration",Associate,34900,49100
+93,Hotel & Restaurant Management,Associate,33900,48900
+94,Medical Laboratory Technology,Associate,37200,48500
+95,Graphic Design,Associate,32500,48400
+96,Management,Associate,33200,48400
+97,Photography,Associate,33100,48300
+98,Culinary Arts & Food Service Management,Associate,33700,48200
+99,Liberal Arts,Associate,31700,48000
+100,History,Associate,28600,47800
+101,Health Information Management,Associate,33900,47600
+102,Paralegal Studies,Associate,32300,47600
+103,Hospitality Management,Associate,32200,47400
+104,Marketing & Management,Associate,33800,47200
+105,General Studies,Associate,31100,46900
+106,Advertising & Graphic Design,Associate,32000,46600
+107,Surgical Technology,Associate,35600,46400
+108,Legal Assistant Studies,Associate,33400,46300
+109,Criminal Justice,Associate,31100,46000
+110,Culinary Arts,Associate,29700,45500
+111,Medical Laboratory Technician,Associate,35400,45300
+112,Art,Associate,28900,45200
+113,English Literature,Associate,26700,45200
+114,Accounting,Associate,33200,45000
+115,Accounting & Business,Associate,33600,45000
+116,Social Science,Associate,29800,44800
+117,Fine Arts,Associate,30100,44500
+118,Human Resources (HR),Associate,34400,44000
+119,Sociology,Associate,30900,43900
+120,Psychology,Associate,28800,43300
+121,Graphic Communication,Associate,31400,42900
+122,Vocational Nursing,Associate,41300,42600
+123,Dental Assisting,Associate,31100,42500
+124,Practical Nursing,Associate,37400,42300
+125,Horticulture,Associate,33200,41200
+126,Administrative Assistant & Secretarial Science,Associate,29100,40000
+127,Health Information Technology,Associate,32000,39300
+128,Health Care Administration,Associate,29600,38800
+129,Education,Associate,27500,38300
+130,Office Administration,Associate,27400,38000
+131,Office Management,Associate,27900,37600
+132,Veterinary Technology,Associate,28600,35000
+133,Medical Assisting,Associate,27800,34500
+134,Medical Office Administration,Associate,28200,34400
+135,Elementary Education,Associate,24900,34200
+136,Human Services (HS),Associate,28600,33400
+137,Medical Billing & Coding,Associate,29600,33200
+138,Social Work (SW),Associate,26700,32800
+139,Child Development,Associate,25400,29600
+140,Early Childhood Education,Associate,23300,28900
+1,Nurse Anesthesia,Master's,140000,156000
+2,Computer Science (CS) & Engineering,Master's,95900,134000
+3,Operations Research,Master's,80800,130000
+4,Electrical & Electronics Engineering (EEE),Master's,79500,129000
+5,Taxation,Master's,61100,129000
+6,Electrical Engineering (EE),Master's,79900,127000
+7,Technology Management,Master's,65900,127000
+8,Chemical Engineering,Master's,73100,125000
+9,Computer Engineering (CE),Master's,86700,125000
+10,Computer Science (CS),Master's,84800,125000
+11,Electrical & Computer Engineering (ECE),Master's,82000,125000
+12,Biomedical Engineering (BME),Master's,70500,122000
+13,Applied Mathematics,Master's,67800,121000
+14,Finance,Master's,63900,121000
+15,Nuclear Engineering,Master's,74000,121000
+16,Telecommunications Engineering,Master's,74200,121000
+17,Engineering,Master's,72300,120000
+18,Industrial Engineering (IE),Master's,70500,119000
+19,Software Engineering,Master's,83900,119000
+20,Aerospace Engineering,Master's,76300,118000
+21,Industrial & Systems Engineering,Master's,69800,118000
+22,Engineering Management,Master's,73600,116000
+23,Materials Science & Engineering,Master's,71500,116000
+24,Mechanical Engineering (ME),Master's,72900,116000
+25,Economics,Master's,64900,115000
+26,Physics,Master's,67700,115000
+27,Systems Engineering,Master's,76700,115000
+28,Information Systems (IS),Master's,67800,113000
+29,Computer Information Systems (CIS),Master's,70700,110000
+30,Information Technology Management,Master's,71100,110000
+31,International Business,Master's,59200,110000
+32,Statistics,Master's,71500,110000
+33,Human Computer Interaction,Master's,81900,109000
+34,Geotechnical Engineering,Master's,60800,108000
+35,Information Security,Master's,74100,108000
+36,Management Information Systems (MIS),Master's,70200,108000
+37,Manufacturing Engineering,Master's,67100,108000
+38,Structural Engineering (SE),Master's,62400,107000
+39,Information Assurance,Master's,70100,105000
+40,Organizational Development,Master's,55800,105000
+41,International Relations,Master's,53300,104000
+42,Physician Assistant Studies,Master's,88400,104000
+43,Civil Engineering (CE),Master's,60900,103000
+44,Construction Management,Master's,61500,103000
+45,Marketing & Management,Master's,52500,103000
+46,Psychiatric Mental Health Nurse Practitioner Studies,Master's,92800,103000
+47,Civil & Environmental Engineering,Master's,61300,102000
+48,Information Technology (IT),Master's,66000,102000
+49,Adult Nurse Practitioner Studies,Master's,89900,101000
+50,Cybersecurity,Master's,67800,101000
+51,Integrated Marketing Communications,Master's,49600,101000
+52,Marketing,Master's,54100,101000
+53,Project Management,Master's,64600,100000
+54,Supply Chain Management,Master's,63800,100000
+55,Acute Care Nurse Practitioner (ACNP) Studies,Master's,93200,99900
+56,Design,Master's,65300,99900
+57,International Studies,Master's,50300,99900
+58,Family Nurse Practitioner (FNP) Studies,Master's,89200,99500
+59,Business & Marketing,Master's,58000,99000
+60,Business Administration,Master's,57700,98500
+61,Accounting & Taxation,Master's,57500,98400
+62,Environmental Engineering,Master's,60200,98400
+63,Information Security & Assurance,Master's,71300,98300
+64,Chemistry,Master's,54700,98000
+65,Mathematics,Master's,62300,97800
+66,Nurse Midwifery,Master's,82100,97500
+67,Biotechnology,Master's,57200,96900
+68,Food Science,Master's,56900,96300
+69,Operations Management (OM),Master's,64400,95700
+70,Accounting,Master's,56900,94300
+71,General Business,Master's,55600,93500
+72,Microbiology,Master's,48700,93500
+73,Pediatric Nurse Practitioner Studies,Master's,84500,93100
+74,Organizational Psychology,Master's,55800,92600
+75,Business Management,Master's,56800,92200
+76,Environmental Management,Master's,55500,92200
+77,Food Science & Technology,Master's,56400,91800
+78,Master of Science in Nursing,Master's,81200,91800
+79,Women's Health Nurse Practitioner Studies,Master's,82500,91600
+80,Industrial Psychology,Master's,54600,91200
+81,Accounting & Finance,Master's,56100,90900
+82,Management,Master's,54300,90600
+83,Health Care Administration,Master's,57100,89900
+84,Geology,Master's,53600,89700
+85,Industrial Design (ID),Master's,58100,89500
+86,Nursing,Master's,81700,88800
+87,Health Policy & Management,Master's,60700,87700
+88,Marketing & Communications,Master's,48600,87700
+89,Occupational Health and Safety,Master's,61500,87100
+90,Epidemiology,Master's,55500,86700
+91,Urban & Regional Planning,Master's,50600,86700
+92,Physical Therapy,Master's,72800,85800
+93,Digital Media,Master's,50100,85600
+94,Leadership,Master's,51900,85400
+95,Accounting & Business,Master's,52300,85200
+96,Informatics,Master's,71200,85200
+97,Linguistics,Master's,52300,85100
+98,Public Policy Analysis,Master's,54500,85100
+99,Organizational Leadership,Master's,52400,85000
+100,Environmental Science,Master's,49500,84700
+101,Human Resources Management (HRM),Master's,50100,83500
+102,Biology,Master's,47800,82800
+103,Speech-Language Pathology,Master's,62000,82300
+104,Management & Leadership,Master's,58600,81900
+105,Biochemistry (BCH),Master's,54400,81800
+106,Occupational Therapy (OT),Master's,64300,81500
+107,Human Resources (HR),Master's,50700,81300
+108,Public Health (PH),Master's,52400,81100
+109,Human Resources Development,Master's,54100,80900
+110,Communication,Master's,48200,80700
+111,Mass Communication,Master's,45500,80700
+112,Architecture,Master's,46300,80600
+113,Geographic Information Systems (GIS),Master's,51700,80500
+114,Public Relations & Communication,Master's,47100,80000
+115,Journalism & Mass Communication,Master's,43800,79500
+116,Communication Sciences & Disorders,Master's,62300,79400
+117,Organizational Management,Master's,51900,79400
+118,Health Care Management,Master's,59700,79100
+119,Speech Pathology,Master's,65600,78600
+120,Instructional Design & Technology,Master's,59700,78500
+121,Nursing Education,Master's,65900,78000
+122,Instructional Design,Master's,52800,77500
+123,Communicative Disorders,Master's,63500,77300
+124,Public Administration,Master's,47200,77000
+125,Instructional Technology,Master's,55500,75900
+126,Landscape Architecture,Master's,48100,75700
+127,Journalism,Master's,46100,75200
+128,Social Science,Master's,52400,75100
+129,Educational Administration,Master's,53900,74400
+130,"Film, Video & Media Studies",Master's,46000,73700
+131,Health Administration,Master's,51800,73100
+132,Graphic Design,Master's,46600,72500
+133,Geography,Master's,48600,72300
+134,English Literature,Master's,43200,72100
+135,Educational Leadership,Master's,52700,72000
+136,Educational Technology (EDT),Master's,52900,71200
+137,Criminal Justice Administration,Master's,42000,70400
+138,Nonprofit Management,Master's,44900,70300
+139,Adult Education & Training,Master's,47100,70000
+140,Creative Writing,Master's,43800,70000
+141,Art History,Master's,41300,69900
+142,School Psychology,Master's,53400,68000
+143,Nutrition,Master's,50700,67900
+144,Anthropology,Master's,42300,67700
+145,English Language & Literature,Master's,42600,67700
+146,Sports Management,Master's,43800,67700
+147,Secondary English Teacher Education,Master's,41800,67100
+148,Education,Master's,46200,66500
+149,Secondary Education,Master's,44000,66300
+150,Interior Design,Master's,45100,65900
+151,Higher Education Administration,Master's,43600,65100
+152,Mental Health,Master's,43700,64500
+153,Music Performance,Master's,41200,64100
+154,Teaching,Master's,44300,63500
+155,Educational Psychology,Master's,46600,63000
+156,Criminal Justice,Master's,41500,62900
+157,Rehabilitation Counseling,Master's,43200,62900
+158,Applied Behavior Analysis,Master's,51300,62500
+159,Library & Information Science,Master's,47500,61800
+160,Clinical Social Work (CSW),Master's,46500,61300
+161,Counseling Psychology,Master's,43000,61300
+162,Nutrition & Dietetics,Master's,48600,61100
+163,Fine Arts,Master's,40500,61000
+164,Gerontology,Master's,46000,60600
+165,Curriculum & Instruction,Master's,43800,60400
+166,Pastoral Ministry,Master's,47000,60400
+167,Clinical Psychology,Master's,44400,60000
+168,Marriage & Family Therapy,Master's,43000,60000
+169,Special Education,Master's,44500,60000
+170,School Counseling,Master's,41900,59900
+171,Exercise Science,Master's,41600,59400
+172,Social Work (SW),Master's,43500,59400
+173,Theology,Master's,45300,58700
+174,Counseling,Master's,41500,58300
+175,Library Science,Master's,42200,58300
+176,Music,Master's,44300,58200
+177,Exercise Physiology,Master's,43600,56000
+178,Early Childhood Special Education,Master's,42600,55100
+179,Elementary Education,Master's,41200,55100
+180,Teaching English as a Second Language (ESL),Master's,40300,55000
+181,Counselor Education & Counseling Psychology,Master's,40400,54900
+182,Studio Art,Master's,38800,54800
+183,Professional Counseling,Master's,39400,54200
+184,Reading & Literacy,Master's,40000,54100
+185,Divinity,Master's,44000,53800
+186,Mental Health Counseling,Master's,40200,51800
+187,Community Counseling,Master's,40400,51600
+188,Early Childhood Education,Master's,38100,48400
+189,Human Services (HS),Master's,38000,48200
+190,Major,Degree Type,Early Career Pay,Mid-Career Pay
+191,Nurse Anesthesia,Master's,140000,156000
+192,Computer Science (CS) & Engineering,Master's,95900,134000
+193,Operations Research,Master's,80800,130000
+194,Electrical & Electronics Engineering (EEE),Master's,79500,129000
+195,Taxation,Master's,61100,129000
+196,Electrical Engineering (EE),Master's,79900,127000
+197,Technology Management,Master's,65900,127000
+198,Chemical Engineering,Master's,73100,125000
+199,Computer Engineering (CE),Master's,86700,125000
+200,Computer Science (CS),Master's,84800,125000
+201,Electrical & Computer Engineering (ECE),Master's,82000,125000
+202,Biomedical Engineering (BME),Master's,70500,122000
+203,Applied Mathematics,Master's,67800,121000
+204,Finance,Master's,63900,121000
+205,Nuclear Engineering,Master's,74000,121000
+206,Telecommunications Engineering,Master's,74200,121000
+207,Engineering,Master's,72300,120000
+208,Industrial Engineering (IE),Master's,70500,119000
+209,Software Engineering,Master's,83900,119000
+210,Aerospace Engineering,Master's,76300,118000
+211,Industrial & Systems Engineering,Master's,69800,118000
+212,Engineering Management,Master's,73600,116000
+213,Materials Science & Engineering,Master's,71500,116000
+214,Mechanical Engineering (ME),Master's,72900,116000
+215,Economics,Master's,64900,115000
+216,Physics,Master's,67700,115000
+217,Systems Engineering,Master's,76700,115000
+218,Information Systems (IS),Master's,67800,113000
+219,Computer Information Systems (CIS),Master's,70700,110000
+220,Information Technology Management,Master's,71100,110000
+221,International Business,Master's,59200,110000
+222,Statistics,Master's,71500,110000
+223,Human Computer Interaction,Master's,81900,109000
+224,Geotechnical Engineering,Master's,60800,108000
+225,Information Security,Master's,74100,108000
+226,Management Information Systems (MIS),Master's,70200,108000
+227,Manufacturing Engineering,Master's,67100,108000
+228,Structural Engineering (SE),Master's,62400,107000
+229,Information Assurance,Master's,70100,105000
+230,Organizational Development,Master's,55800,105000
+231,International Relations,Master's,53300,104000
+232,Physician Assistant Studies,Master's,88400,104000
+233,Civil Engineering (CE),Master's,60900,103000
+234,Construction Management,Master's,61500,103000
+235,Marketing & Management,Master's,52500,103000
+236,Psychiatric Mental Health Nurse Practitioner Studies,Master's,92800,103000
+237,Civil & Environmental Engineering,Master's,61300,102000
+238,Information Technology (IT),Master's,66000,102000
+239,Adult Nurse Practitioner Studies,Master's,89900,101000
+240,Cybersecurity,Master's,67800,101000
+241,Integrated Marketing Communications,Master's,49600,101000
+242,Marketing,Master's,54100,101000
+243,Project Management,Master's,64600,100000
+244,Supply Chain Management,Master's,63800,100000
+245,Acute Care Nurse Practitioner (ACNP) Studies,Master's,93200,99900
+246,Design,Master's,65300,99900
+247,International Studies,Master's,50300,99900
+248,Family Nurse Practitioner (FNP) Studies,Master's,89200,99500
+249,Business & Marketing,Master's,58000,99000
+250,Business Administration,Master's,57700,98500
+251,Accounting & Taxation,Master's,57500,98400
+252,Environmental Engineering,Master's,60200,98400
+253,Information Security & Assurance,Master's,71300,98300
+254,Chemistry,Master's,54700,98000
+255,Mathematics,Master's,62300,97800
+256,Nurse Midwifery,Master's,82100,97500
+257,Biotechnology,Master's,57200,96900
+258,Food Science,Master's,56900,96300
+259,Operations Management (OM),Master's,64400,95700
+260,Accounting,Master's,56900,94300
+261,General Business,Master's,55600,93500
+262,Microbiology,Master's,48700,93500
+263,Pediatric Nurse Practitioner Studies,Master's,84500,93100
+264,Organizational Psychology,Master's,55800,92600
+265,Business Management,Master's,56800,92200
+266,Environmental Management,Master's,55500,92200
+267,Food Science & Technology,Master's,56400,91800
+268,Master of Science in Nursing,Master's,81200,91800
+269,Women's Health Nurse Practitioner Studies,Master's,82500,91600
+270,Industrial Psychology,Master's,54600,91200
+271,Accounting & Finance,Master's,56100,90900
+272,Management,Master's,54300,90600
+273,Health Care Administration,Master's,57100,89900
+274,Geology,Master's,53600,89700
+275,Industrial Design (ID),Master's,58100,89500
+276,Nursing,Master's,81700,88800
+277,Health Policy & Management,Master's,60700,87700
+278,Marketing & Communications,Master's,48600,87700
+279,Occupational Health and Safety,Master's,61500,87100
+280,Epidemiology,Master's,55500,86700
+281,Urban & Regional Planning,Master's,50600,86700
+282,Physical Therapy,Master's,72800,85800
+283,Digital Media,Master's,50100,85600
+284,Leadership,Master's,51900,85400
+285,Accounting & Business,Master's,52300,85200
+286,Informatics,Master's,71200,85200
+287,Linguistics,Master's,52300,85100
+288,Public Policy Analysis,Master's,54500,85100
+289,Organizational Leadership,Master's,52400,85000
+290,Environmental Science,Master's,49500,84700
+291,Human Resources Management (HRM),Master's,50100,83500
+292,Biology,Master's,47800,82800
+293,Speech-Language Pathology,Master's,62000,82300
+294,Management & Leadership,Master's,58600,81900
+295,Biochemistry (BCH),Master's,54400,81800
+296,Occupational Therapy (OT),Master's,64300,81500
+297,Human Resources (HR),Master's,50700,81300
+298,Public Health (PH),Master's,52400,81100
+299,Human Resources Development,Master's,54100,80900
+300,Communication,Master's,48200,80700
+301,Mass Communication,Master's,45500,80700
+302,Architecture,Master's,46300,80600
+303,Geographic Information Systems (GIS),Master's,51700,80500
+304,Public Relations & Communication,Master's,47100,80000
+305,Journalism & Mass Communication,Master's,43800,79500
+306,Communication Sciences & Disorders,Master's,62300,79400
+307,Organizational Management,Master's,51900,79400
+308,Health Care Management,Master's,59700,79100
+309,Speech Pathology,Master's,65600,78600
+310,Instructional Design & Technology,Master's,59700,78500
+311,Nursing Education,Master's,65900,78000
+312,Instructional Design,Master's,52800,77500
+313,Communicative Disorders,Master's,63500,77300
+314,Public Administration,Master's,47200,77000
+315,Instructional Technology,Master's,55500,75900
+316,Landscape Architecture,Master's,48100,75700
+317,Journalism,Master's,46100,75200
+318,Social Science,Master's,52400,75100
+319,Educational Administration,Master's,53900,74400
+320,"Film, Video & Media Studies",Master's,46000,73700
+321,Health Administration,Master's,51800,73100
+322,Graphic Design,Master's,46600,72500
+323,Geography,Master's,48600,72300
+324,English Literature,Master's,43200,72100
+325,Educational Leadership,Master's,52700,72000
+326,Educational Technology (EDT),Master's,52900,71200
+327,Criminal Justice Administration,Master's,42000,70400
+328,Nonprofit Management,Master's,44900,70300
+329,Adult Education & Training,Master's,47100,70000
+330,Creative Writing,Master's,43800,70000
+331,Art History,Master's,41300,69900
+332,School Psychology,Master's,53400,68000
+333,Nutrition,Master's,50700,67900
+334,Anthropology,Master's,42300,67700
+335,English Language & Literature,Master's,42600,67700
+336,Sports Management,Master's,43800,67700
+1,Strategy,MBA,96200,149000
+2,General & Strategic Management,MBA,85200,146000
+3,Entrepreneurship,MBA,70300,139000
+4,Corporate Finance,MBA,78100,138000
+5,Finance & Economics,MBA,66700,137000
+6,Finance,MBA,69400,130000
+7,Business & Marketing,MBA,61700,126000
+8,Marketing & Management,MBA,63900,126000
+9,Information Technology (IT),MBA,72400,123000
+10,Marketing,MBA,61700,123000
+11,Marketing Management,MBA,66200,122000
+12,Strategic Management,MBA,69200,122000
+13,International Business,MBA,62600,121000
+14,Operations Management (OM),MBA,75500,121000
+15,Management Information Systems (MIS),MBA,64600,118000
+16,Business Management & Marketing,MBA,66400,117000
+17,Global Business Management,MBA,66600,117000
+18,Information Technology Management,MBA,68600,116000
+19,Accounting & Finance,MBA,67700,115000
+20,Financial Management,MBA,61700,115000
+21,General Business,MBA,61800,115000
+22,Operations & Supply Chain Management,MBA,72700,115000
+23,Information Systems (IS),MBA,70100,112000
+24,Supply Chain Management,MBA,71400,108000
+25,Business Management,MBA,59500,107000
+26,Management,MBA,57000,104000
+27,Leadership,MBA,57500,102000
+28,Business Administration,MBA,58100,101000
+29,Organizational Leadership,MBA,58200,97200
+30,Health Care Administration,MBA,59900,95900
+31,Business & Healthcare Management,MBA,65200,95300
+32,Business Management & Administration,MBA,57300,94100
+33,Project Management,MBA,61200,94000
+34,Health Care Management,MBA,51200,92500
+35,Accounting,MBA,54000,87900
+36,Accounting & Business,MBA,54900,81900
+37,Human Resources Management (HRM),MBA,49600,81100
+38,Human Resources (HR),MBA,48400,79200
+1,Chemical Engineering,PhD,96100,146000
+1,Organic Chemistry,PhD,83400,146000
+1,Computer Science (CS),PhD,118000,145000
+1,Electrical Engineering (EE),PhD,103000,144000
+1,Pharmacology,PhD,75400,141000
+1,Physical Chemistry,PhD,73600,138000
+1,Engineering,PhD,93600,137000
+1,Physics,PhD,93700,135000
+1,Biomedical Engineering (BME),PhD,88100,133000
+1,Statistics,PhD,105000,131000
+1,Aerospace Engineering,PhD,94900,128000
+1,Materials Science & Engineering,PhD,88900,128000
+1,Pharmacy,PhD,108000,126000
+1,Analytical Chemistry,PhD,77400,121000
+1,Economics,PhD,101000,121000
+1,Biochemistry & Molecular Biology,PhD,80200,116000
+1,Political Science (PolySci),PhD,66200,112000
+1,Immunology,PhD,83600,111000
+1,Neuroscience,PhD,72100,109000
+1,Cell & Molecular Biology,PhD,76900,106000
+1,Microbiology,PhD,73500,105000
+1,Mathematics,PhD,85700,101000
+1,Epidemiology,PhD,78700,97300
+1,Clinical Psychology,PhD,70300,96100
+1,Educational Leadership,PhD,72500,86300
+1,Counseling Psychology,PhD,61700,81500

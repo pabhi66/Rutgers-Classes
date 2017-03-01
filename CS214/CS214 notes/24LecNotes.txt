@@ -1,0 +1,137 @@
+
+server machine:																client machine 0:
+signal handler.. detects SIGINT									read ... closing .. ruh-roh
+open up each socket .. send "closing time..."
+set stop flag for all threads
+
+																						client machine 1:
+																						read .. closing ... ruh-roh
+
+server main:																						
+while( !shuttingdown )
+{
+	... do bank stuff
+	accept ...
+	make threads ...
+}
+									
+close server socket		
+tell clients you are shutting down...							
+join on all threads
+deallocate shared data areas
+destroy mutexes
+
+
+client thread:
+while(!shuttingdown && client did not send exit command)
+{
+	... read from socket and do stuff
+}
+																						
+deallocate personal memory
+pthread_exit(0)
+
+
+
+pthread_create(pthread_t &handle, attribs .. other stuff )
+
+																						
+																						
+																						
+
+
+if( fork() != 0 )
+	increment counter
+else
+	exec
+	
+	
+	
+
+read(fd, &buff, Nbytes)
+	0: fd is not ready to be read (no data yet) ... read waits until there is (pseudo-block)
+	1: fd is read to be read (there is data) ... read reads up to Nbytes and reports how many it DID read
+
+select...
+	
+
+
+
+
+	
+	bzero( some buffer )
+	
+	
+	
+	
+	
+	server:																						client:
+			client thread:																			server listening thread
+				while(!shuttingdown)																	.. got a server shutdown message!
+				{																									.. send("exit") to server
+					read ... waiting for input .. *twiddle*
+				}
+					
+				shutdown code...
+
+				
+					
+					
+	 SIGINT!
+		want to shut down ... 
+			tell clients you're shutting down
+	 
+	 
+	 
+	
+	
+	
+Semaphores:
+
+wait(): is if shared counter is > 0, return and decrement by 1
+
+post(): increment shared counter by 1
+
+
+init to 1:
+	same semantics as a mutex
+	- 1 thread in the critical section at a time
+	
+	
+init to 0:
+	anyone who waits will block until someone else notifies
+	... all threads accessing the semaphore will block
+	'barrier' .. often used to synchronize computation across multiple threads
+	
+	
+	
+	
+P0:
+
+Sighandler
+{
+	++i;
+}
+
+*					
+T0:				T1:					T2:
+int i				int k					int h
+int j				int i					int i 
+	
+	
+post on a semaphore is asynchronous thread-safe!(!!!!)
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

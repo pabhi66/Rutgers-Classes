@@ -1,0 +1,74 @@
+
+
+
+
+
+client thread ...
+
+
+
+while( !globalShutDown || !localShutDown)
+{
+	read from sockFD
+	parse command
+	do stuff
+	
+	if client command is 'exit'
+		shut self down ...  localShutDown = 1;
+}
+
+	send 'shutting down/disconnect' message to client
+	clean up resources
+	close sockFD
+	
+	pthread_exit(0)
+	
+	
+
+
+
+
+print out thread ....
+
+
+while( !globalShutDown )
+{
+	printf out account data
+	while ( sleep(20) ...  && !globalShutdown)
+		
+}
+
+clean up stuff
+pthread_exit(0)
+
+
+
+
+IPC: Inter-Process Communication
+
+memory-mapped files
+shared memory
+
+
+(*bankaccount) p
+
+p[1].name ... 
+
+
+
+
+Semaphores...
+
+wait(semaphore): if shared counter is nonzero, decrement it, and run, else block
+post(semaphore): increment shared counter
+
+
+lock(mutex)
+... critical section
+unlock(mutex)
+
+
+wait(semaphore)
+... critical section
+post(semaphore)
+
