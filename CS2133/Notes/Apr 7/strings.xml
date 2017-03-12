@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Song Library</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Initial list of songs -->
+    <string-array name="song_array">
+        <item>Bohemian Rhapsody|Queen</item>
+        <item>Burn it Down|Linkin Park</item>
+        <item>Comfortably Numb|Pink Floyd</item>
+        <item>Down to the Waterline|Dire Straits</item>
+        <item>Imagine|John Lennon</item>
+        <item>Kryptonite|3 Doors Down</item>
+        <item>One|U2</item>
+        <item>Sorry For Party Rocking|LMFAO</item>
+        <item>Suzie Q|Creedence Clearwater Revival</item>
+        <item>Uptown Funk|Mark Ronson ft. Bruno Mars</item>
+    </string-array>
+
+    <string name="song_list">Songs</string>
+    <string name="delete">Delete</string>
+
+    <!-- Following set for adding song -->
+    <string name="add_song">Add Song</string>
+    <string name="add_song_name_label">Name: (required)</string>
+    <string name="add_song_name_hint">Song Name</string>
+    <string name="add_song_artist_label">Artist: (required)</string>
+    <string name="add_song_artist_hint">Artist</string>
+    <string name="add_song_album_label">Album:</string>
+    <string name="add_song_album_hint">Album</string>
+    <string name="add_song_year_label">Year</string>
+    <string name="add_song_year_hint">2000</string>
+    <string name="add_song_save_label">" Save "</string>
+    <string name="add_song_cancel_label">Cancel</string>
+    <string name="title_activity_add_song">AddSong</string>
+
+</resources>

@@ -1,0 +1,12 @@
+Team 12- Photo Album Work Split Document
+Abhishek Prajapati
+Darshan Patel
+
+Window Name					Group Member
+Login							Abhishek Prajapati
+Admin Screen						Abhishek Prajapati
+User Screen						Abhishek Prajapati
+Open Album						Darshan Patel
+Slide Show						Darshan Patel
+Search							Abhishek Prajapati
+Display						Darshan Patel
