@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">FC</string>
-    <string name="flabel">Fahrenheit</string>
-    <string name="clabel">Celsius</string>
-
-</resources>

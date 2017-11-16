@@ -2,16 +2,8 @@ public class CellPhoneBook
 {
 	public static void main(String[] args)
 	{
-
-
-
-
-
 		System.out.print("Enter the maximum size of the cell phone book: ");
 		int max = IO.readInt();
-
-
-
 
 		while (true)
 		{
